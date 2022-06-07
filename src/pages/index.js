@@ -49,8 +49,8 @@ const IndexPage = () => {
         </h2>
 
         <div
-          data-sal="fade"
-          data-sal-duration="300"
+          data-sal="slide-left"
+          data-sal-duration="1000"
           data-sal-easing="ease"
         >
           <p>
@@ -72,7 +72,7 @@ const IndexPage = () => {
             안해본 게 없습니다
           </TypeIt>
         </h2>
-        <div data-sal="fade" data-sal-duration="300" data-sal-easing="ease">
+        <div data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease">
           <p className="etc">
             블로그, 파워링크, 네이버플레이스, 브랜드컨텐츠, 페이스북,
             인스타그램, 구글애즈, 키워드광고, 배너광고, 강남언니, 굿닥,
@@ -105,8 +105,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="fade"
-          data-sal-duration="300"
+          data-sal="slide-left"
+          data-sal-duration="1000"
           data-sal-easing="ease"
         >
           <p>
@@ -133,8 +133,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="fade"
-          data-sal-duration="300"
+          data-sal="slide-right"
+          data-sal-duration="1000"
           data-sal-easing="ease"
         >
           <p>
@@ -237,8 +237,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="fade"
-          data-sal-duration="300"
+          data-sal="slide-left"
+          data-sal-duration="1000"
           data-sal-easing="ease"
         >
           <p className="quote">
@@ -281,8 +281,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="fade"
-          data-sal-duration="300"
+          data-sal="slide-right"
+          data-sal-duration="1000"
           data-sal-easing="ease"
         >
           <p>
