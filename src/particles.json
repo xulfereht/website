@@ -56,9 +56,9 @@
     "number": {
       "density": {
         "enable": true,
-        "value_area": 3000
+        "value_area": 8000
       },
-      "value": 8
+      "value": 24
     },
     "opacity": {
       "value": 0.3
@@ -70,7 +70,7 @@
     "size": {
       "random": false,
       "value": {
-      "min": 100,
+      "min": 80,
       "max": 150
       }
     },
