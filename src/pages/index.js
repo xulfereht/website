@@ -2,12 +2,12 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
-import Particles from "react-tsparticles";
-import particlesOptions from "../part.json";
 import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 import Counter from "../components/elements/counter";
 import Example from "../components/barchart";
 import TypeIt from "typeit-react";
+import Part from "../components/particles";
+
 
 const SuperStrong = ({ children }) => {
   return <strong style={{ fontSize: "60px" }}>{children}</strong>;
@@ -17,7 +17,7 @@ const SuperStrong = ({ children }) => {
 const IndexPage = () => {
   return (
     <Layout pageTitle="Marketing Is Everything">
-      <Particles options={particlesOptions} />
+      <Part />
       <div className="Blank"></div>
 
       <div className="top">
