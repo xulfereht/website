@@ -10,7 +10,7 @@ import Example from "../components/barchart";
 import TypeIt from "typeit-react";
 
 const SuperStrong = ({ children }) => {
-  return <strong style={{ fontSize: "80px" }}>{children}</strong>;
+  return <strong style={{ fontSize: "60px" }}>{children}</strong>;
 };
 
 // Step 2: Define your component
@@ -49,8 +49,8 @@ const IndexPage = () => {
         </h2>
 
         <div
-          data-sal="slide-right"
-          data-sal-duration="1000"
+          data-sal="fade"
+          data-sal-duration="300"
           data-sal-easing="ease"
         >
           <p>
@@ -72,19 +72,13 @@ const IndexPage = () => {
             안해본 게 없습니다
           </TypeIt>
         </h2>
-        <div data-sal="fade" data-sal-duration="1000" data-sal-easing="ease">
+        <div data-sal="fade" data-sal-duration="300" data-sal-easing="ease">
           <p className="etc">
             블로그, 파워링크, 네이버플레이스, 브랜드컨텐츠, 페이스북,
             인스타그램, 구글애즈, 키워드광고, 배너광고, 강남언니, 굿닥,
             카카오스토리, 유튜브, 네이버, 다음, 티스토리, 커뮤니티, 맘카페,
             버스광고, 마트광고.........{" "}
           </p>
-        </div>
-        <div
-          data-sal="slide-left"
-          data-sal-duration="1000"
-          data-sal-easing="ease"
-        >
           <p>
             그야말로 <span className="HL">실전마케팅</span>입니다. 대행사가 아닌
             사업주의 관점을 누구보다 잘 이해하고 있습니다. 실제 사업을
@@ -111,8 +105,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="slide-right"
-          data-sal-duration="1000"
+          data-sal="fade"
+          data-sal-duration="300"
           data-sal-easing="ease"
         >
           <p>
@@ -139,8 +133,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="slide-left"
-          data-sal-duration="1000"
+          data-sal="fade"
+          data-sal-duration="300"
           data-sal-easing="ease"
         >
           <p>
@@ -214,8 +208,8 @@ const IndexPage = () => {
           </Col>
           <Col xxl="8" md="6" sm="12">
             <div
-              data-sal="slide-left"
-              data-sal-duration="1000"
+              data-sal="fade"
+              data-sal-duration="300"
               data-sal-easing="ease"
             >
               <div>
@@ -243,8 +237,8 @@ const IndexPage = () => {
           </TypeIt>
         </h2>
         <div
-          data-sal="slide-left"
-          data-sal-duration="500"
+          data-sal="fade"
+          data-sal-duration="300"
           data-sal-easing="ease"
         >
           <p className="quote">
@@ -288,12 +282,7 @@ const IndexPage = () => {
         </h2>
         <div
           data-sal="fade"
-          data-sal-duration="1000"
-          data-sal-easing="ease"
-        ></div>
-        <div
-          data-sal="slide-left"
-          data-sal-duration="1000"
+          data-sal-duration="300"
           data-sal-easing="ease"
         >
           <p>
