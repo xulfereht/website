@@ -6,7 +6,6 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 import Counter from "../components/elements/counter";
 import Example from "../components/barchart";
 import TypeIt from "typeit-react";
-import Part from "../components/particles";
 
 
 const SuperStrong = ({ children }) => {
@@ -17,7 +16,6 @@ const SuperStrong = ({ children }) => {
 const IndexPage = () => {
   return (
     <Layout pageTitle="Marketing Is Everything">
-      <Part />
       <div className="Blank"></div>
 
       <div className="top">

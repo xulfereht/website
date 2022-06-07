@@ -2,14 +2,12 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { Link } from "gatsby";
-import Part from "../components/particles";
 import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 
 // Step 2: Define your component
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <Part />
       <p>
         Hi there! I'm the proud creator of this site, which I built with Gatsby.
       </p>

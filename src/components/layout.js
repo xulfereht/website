@@ -4,6 +4,7 @@ import { layout, heading, blink } from "./layout.module.css";
 import Logo from "../assets/logo.svg";
 import Header from "./header";
 import Navbar from "./Navbar/Navbar";
+import Part from "../components/particles";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -20,7 +21,7 @@ const Layout = ({ pageTitle, children }) => {
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
-
+      <Part />
       <Navbar />
       <div
         style={{
