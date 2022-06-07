@@ -48,7 +48,7 @@
     "move": {
       "direction": "none",
       "enable": true,
-      "outMode": "bounce",
+      "outMode": "out",
       "random": true,
       "speed": 3,
       "straight": false
@@ -58,7 +58,7 @@
         "enable": true,
         "value_area": 1500
       },
-      "value": 10
+      "value": 20
     },
     "opacity": {
       "value": 0.3
