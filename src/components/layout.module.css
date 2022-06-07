@@ -1,0 +1,70 @@
+@import "../styles/typography.css";
+
+.heading {
+  color: #cfff04;
+  font-family: "Pretendard Black";
+}
+
+header {
+  background: #111111;
+  position: sticky;
+  top: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2 {
+  margin-left: 20px;
+}
+
+header nav {
+  width: 600px;
+  height: 100%;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: 0.9em;
+}
+
+main {
+  padding: 32px;
+}
+
+footer {
+  background-color: transparent;
+  padding: 40px;
+}
+footer p {
+  font-size: 0.8em;
+  text-align: center;
+  color: black;
+  line-height: 1.5;
+}
+
+.site-title {
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  margin: 3rem 0;
+}
+
+#tsparticles {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}

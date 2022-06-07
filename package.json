@@ -1,8 +1,8 @@
 {
-  "name": "website",
+  "name": "gatsby",
   "version": "1.0.0",
   "private": true,
-  "description": "website",
+  "description": "gatsby",
   "keywords": [
     "gatsby"
   ],
@@ -14,8 +14,24 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.15.2",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^2.15.1",
+    "gatsby-plugin-mdx": "^3.15.2",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-scroll-reveal": "^0.0.7",
+    "gatsby-plugin-sharp": "^4.15.1",
+    "gatsby-plugin-styled-components": "^5.15.0",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-transformer-sharp": "^4.15.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-smooth-number-counter": "^0.0.5",
+    "recharts": "^2.1.10",
+    "styled-components": "^5.3.5",
+    "typeit-react": "^2.4.4"
   }
 }
