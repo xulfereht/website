@@ -13,6 +13,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
+  },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
@@ -32,6 +35,9 @@
     "react-smooth-number-counter": "^0.0.5",
     "recharts": "^2.1.10",
     "styled-components": "^5.3.5",
-    "typeit-react": "^2.4.4"
+    "typeit-react": "^2.4.4",
+    "react-tsparticles": "^2.0.6",
+    "react-styled-grid-layout": "^1.0.2",
+    "source-map": "^0.8.0-beta.0"
   }
 }
