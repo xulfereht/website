@@ -6,6 +6,10 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 import Counter from "../components/elements/counter";
 import Example from "../components/barchart";
 import TypeIt from "typeit-react";
+import { FaUserTie, FaRocket, FaHandsHelping } from 'react-icons/fa';
+import { GiStrong, GiArchiveResearch, GiPayMoney, GiSprout } from 'react-icons/gi';
+import { AiOutlineUnorderedList, AiOutlineComment } from 'react-icons/ai';
+
 
 
 const SuperStrong = ({ children }) => {
@@ -37,12 +41,13 @@ const IndexPage = () => {
       <div className="Blank"></div>
       <section>
         <h2>
+<div className = "icon"><FaUserTie /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            현직한의삽니다
+             &nbsp;&nbsp;현직한의삽니다
           </TypeIt>
         </h2>
 
@@ -61,13 +66,14 @@ const IndexPage = () => {
       <div className="Blank"></div>
 
       <section>
-        <h2>
+        <h2 >  
+      <div className = "icon"><GiArchiveResearch /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            안해본 게 없습니다
+            &nbsp;&nbsp;안해본 게 없습니다
           </TypeIt>
         </h2>
         <div data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease">
@@ -85,7 +91,7 @@ const IndexPage = () => {
             의견은 칼럼을 참고해주세요.
           </p>
           <div>
-            <button className="button">칼럼 보러가기</button>
+            <button className="button"><div className = "icon"><AiOutlineUnorderedList /></div> &nbsp;&nbsp;칼럼 보러가기</button>
           </div>
         </div>
         <br></br>
@@ -94,12 +100,13 @@ const IndexPage = () => {
 
       <section>
         <h2>
+        <div className = 'icon'><AiOutlineComment /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            원장님 보건소에서 전화왔는데요
+            &nbsp;&nbsp;원장님 보건소에서 전화왔는데요
           </TypeIt>
         </h2>
         <div
@@ -122,12 +129,13 @@ const IndexPage = () => {
 
       <section>
         <h2>
+        <div className = 'icon'><GiPayMoney /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            혹시 헛돈만 써왔나요?
+            &nbsp;&nbsp;혹시 헛돈만 써왔나요?
           </TypeIt>
         </h2>
         <div
@@ -147,7 +155,7 @@ const IndexPage = () => {
           </p>
 
           <div>
-            <button className="button">무료체험 신청하기</button>
+           <a href = "https://form.typeform.com/to/cGMw88rA" target = "_blank"> <button className="button">무료체험 신청하기</button></a>
           </div>
           <br></br>
           <br></br>
@@ -159,12 +167,14 @@ const IndexPage = () => {
         <Grid cols="12" gap="10px">
           <Col xxl="4" md="6" sm="12">
             <h2>
+        <div className = 'icon'><GiStrong /></div>
+
               <TypeIt
                 options={{
                   waitUntilVisible: true,
                 }}
               >
-                이런 일을 잘합니다
+               &nbsp;&nbsp; 이런 일을 잘합니다
               </TypeIt>
             </h2>
           </Col>
@@ -201,7 +211,11 @@ const IndexPage = () => {
         <Grid cols="12" gap="10px">
           <Col xxl="4" md="6" sm="12">
             <div>
-              <h2>Our Clients.</h2>
+              <h2>
+        <div className = 'icon'><FaHandsHelping /></div>
+        &nbsp;&nbsp;Our Clients.</h2>
+
+
             </div>
           </Col>
           <Col xxl="8" md="6" sm="12">
@@ -226,12 +240,13 @@ const IndexPage = () => {
 
       <section>
         <h2>
+        <div className = "icon"><GiSprout /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            고객과 함께 자라기
+           &nbsp;&nbsp; 고객과 함께 자라기
           </TypeIt>
         </h2>
         <div
@@ -270,12 +285,13 @@ const IndexPage = () => {
 
       <section>
         <h2>
+<div className = 'icon'><FaRocket /></div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-            직접 체험해보세요
+            &nbsp;&nbsp;직접 체험해보세요
           </TypeIt>
         </h2>
         <div
@@ -291,7 +307,7 @@ const IndexPage = () => {
             업무에 더 집중하실 수 있게 도와드립니다.
           </p>
           <div>
-            <button className="button">무료체험 신청하기</button>
+           <a href = "https://form.typeform.com/to/cGMw88rA" target = "_blank"> <button className="button">무료체험 신청하기</button></a>
           </div>
           <br></br>
 
