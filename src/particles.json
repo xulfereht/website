@@ -50,7 +50,7 @@
       "enable": true,
       "outMode": "bounce",
       "random": true,
-      "speed": 6,
+      "speed": 3,
       "straight": false
     },
     "number": {
@@ -58,7 +58,7 @@
         "enable": true,
         "value_area": 3000
       },
-      "value": 80
+      "value": 50
     },
     "opacity": {
       "value": 0.7
