@@ -5,21 +5,21 @@
   "interactivity": {
     "events": {
       "onClick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "onHover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "resize": true
     },
     "modes": {
       "bubble": {
-        "distance": 400,
+        "distance": 100,
         "duration": 2,
         "opacity": 0.8,
-        "size": 40
+        "size": 2
       },
       "push": {
         "quantity": 4
@@ -68,7 +68,7 @@
       "fill": false
     },
     "size": {
-      "random": true,
+      "random": false,
       "value": {
       "min": 100,
       "max": 150
