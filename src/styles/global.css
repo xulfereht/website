@@ -71,11 +71,12 @@ p {
 .button {
   width: 200px;
   height: 50px;
-  background-color: #ffde03;
+  color : #fff;
+  background-color: #0336ff;;
   font-size: 1.1em;
   font-family: "Pretendard Regular";
   position: relative;
-  border: 2px solid black;
+  border: 1px solid black;
   display: block;
   margin: 0 auto;
   padding: 10px 10px;
@@ -88,7 +89,7 @@ p {
   cursor: pointer;
   color: white;
   border: none;
-  background-color: #0336ff;
+  background-color: #ff0266;
 }
 
 .top {
