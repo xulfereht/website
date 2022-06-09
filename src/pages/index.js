@@ -320,7 +320,8 @@ const IndexPage = () => {
             <button className="button">서비스 보러가기</button>
           </div>
         </div>
-        <br></br>
+<div className="Blank"></div>
+
       </section>
     </Layout>
   );

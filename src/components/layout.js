@@ -6,6 +6,7 @@ import Header from "./header";
 import Navbar from "./Navbar/Navbar";
 import Part from "../components/particles";
 import Widget from "../components/typeform"
+import { GiPlanetConquest } from 'react-icons/gi';
 
 
 const Layout = ({ pageTitle, children }) => {
@@ -34,7 +35,7 @@ const Layout = ({ pageTitle, children }) => {
         }}
       >
         <main>{children}
-      <h2 id = "contact">Contact.</h2>
+      <h2 id = "contact"><div className = "icon"><GiPlanetConquest /></div> Contact Us.</h2>
       <center><Widget /></center>
 </main>
             </div>
