@@ -3,6 +3,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const NavItem = styled(Link)`
   text-decoration: none;
@@ -45,7 +46,7 @@ const NavbarLinks = () => {
       <NavItem to="/about">회사소개</NavItem>
       <NavItem to="/service">서비스</NavItem>
       <NavItem to="/blog">칼럼</NavItem>
-      <NavItem to="/contact">문의하기</NavItem>
+      <NavItem to="#contact">문의하기</NavItem>
     </>
   );
 };

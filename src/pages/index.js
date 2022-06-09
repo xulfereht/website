@@ -9,7 +9,8 @@ import TypeIt from "typeit-react";
 import { FaUserTie, FaRocket, FaHandsHelping } from 'react-icons/fa';
 import { GiStrong, GiArchiveResearch, GiPayMoney, GiSprout } from 'react-icons/gi';
 import { AiOutlineUnorderedList, AiOutlineComment } from 'react-icons/ai';
-
+import { Link, navigate} from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 
 const SuperStrong = ({ children }) => {
@@ -149,7 +150,7 @@ const IndexPage = () => {
           </p>
 
           <div>
-           <a href = "https://form.typeform.com/to/cGMw88rA" target = "_blank"> <button className="button">무료체험 신청하기</button></a>
+           <AnchorLink to = "/#contact"> <button className="button">무료체험 신청하기</button></AnchorLink>
           </div>
           <br></br>
           <br></br>
@@ -306,7 +307,7 @@ const IndexPage = () => {
             업무에 더 집중하실 수 있게 도와드립니다.
           </p>
           <div>
-           <a href = "https://form.typeform.com/to/cGMw88rA" target = "_blank"> <button className="button">무료체험 신청하기</button></a>
+           <AnchorLink to = "/#contact"> <button className="button">무료체험 신청하기</button></AnchorLink>
           </div>
           <br></br>
 

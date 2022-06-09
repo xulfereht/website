@@ -5,6 +5,8 @@ import Logo from "../assets/logo.svg";
 import Header from "./header";
 import Navbar from "./Navbar/Navbar";
 import Part from "../components/particles";
+import Widget from "../components/typeform"
+
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -31,8 +33,12 @@ const Layout = ({ pageTitle, children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
-      </div>
+        <main>{children}
+      <h2 id = "contact">Contact.</h2>
+      <center><Widget /></center>
+</main>
+            </div>
+
       <footer>
         <p>ⓒ 모든마케팅 2022.</p>
         <p></p>

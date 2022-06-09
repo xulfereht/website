@@ -15,6 +15,7 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-styled-components",
+    `gatsby-plugin-anchor-links`,  
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
