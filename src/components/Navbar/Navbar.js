@@ -4,14 +4,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import NavbarLinks from "./NavbarLinks";
 /*import Logo from "./Logo"*/
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo_white.svg";
 import { Link } from "gatsby";
 
 const Navigation = styled.nav`
   position: sticky;
   height: 11vh;
   display: flex;
-  background-color: transparent;
+  background-color: tansparent;
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
@@ -56,8 +56,8 @@ const Navbox = styled.div`
     width: 100%;
     justify-content: flex-start;
     padding-top: 10vh;
-    background-color: #ffde03;
-    opacity: 0.9;
+    background-color: black;
+    opacity: 0.6;
     transition: all 0.3s ease-in;
     top: 8vh;
     left: ${(props) => (props.open ? "-100%" : "0")};
@@ -76,7 +76,7 @@ const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     content: "";
     position: absolute;
     transition: all 0.3s linear;

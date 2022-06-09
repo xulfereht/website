@@ -7,7 +7,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const NavItem = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: white;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -22,13 +22,13 @@ const NavItem = styled(Link)`
     width: 0%;
     content: ".";
     color: transparent;
-    background: #0336ff;
+    background: #ff0266;
     height: 1px;
     transition: all 0.4s ease-in;
   }
 
   :hover {
-    color: #0336ff;
+    color: #ff0266;
     ::after {
       width: 100%;
     }

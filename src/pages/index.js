@@ -14,7 +14,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 
 const SuperStrong = ({ children }) => {
-  return <strong style={{ fontSize: "60px" }}>{children}</strong>;
+  return <strong style={{ fontSize: "60px"}}>{children}</strong>;
 };
 
 // Step 2: Define your component

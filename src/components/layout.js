@@ -36,7 +36,7 @@ const Layout = ({ pageTitle, children }) => {
       >
         <main>{children}
       <h2 id = "contact"><div className = "icon"><GiPlanetConquest /></div> Contact Us.</h2>
-      <div><p>궁금한 점이 있으시다면 아래 문의하기 버튼을 이용해주세요. 최대한 빠르게 답변 드리겠습니다.</p></div>
+      <div><p>궁금한 점이 있으시다면 아래 내용을 남겨주세요. 최대한 빠르게 답변 드리겠습니다.</p></div>
       <center><Widget /></center>
 </main>
             </div>
