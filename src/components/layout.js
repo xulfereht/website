@@ -45,11 +45,15 @@ const Layout = ({ pageTitle, children }) => {
         <p>ⓒ 모든마케팅 2022.</p>
         <p></p>
         <p>
-          <span>Email. abc@def.com</span>
+         <span>Email. contact@thebareuncs.com</span>
           <br />
-          <span>Biz License 000-00000-00</span>
+          <span>Biz License. 176-01-01166</span>
           <br />
-          <span>강남구 강남대로 21</span>
+          <span> 서울특별시 강남구 선릉로 529 2F,2128</span>
+      <br />
+            <span>대표자 : 안상완</span>
+       
+
         </p>
       </footer>
     </>

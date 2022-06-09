@@ -36,6 +36,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
+    "react-rounded-image": "^2.0.14",
     "react-smooth-number-counter": "^0.0.5",
     "react-styled-grid-layout": "^1.0.2",
     "react-tsparticles": "^2.0.6",
