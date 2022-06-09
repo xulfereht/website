@@ -43,6 +43,8 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
+      <NavItem to="/">홈</NavItem>
+
       <NavItem to="/about">회사소개</NavItem>
       <NavItem to="/service">서비스</NavItem>
       <NavItem to="/blog">칼럼</NavItem>
