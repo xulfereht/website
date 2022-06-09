@@ -6,15 +6,23 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 import Counter from "../components/elements/counter";
 import Example from "../components/barchart";
 import TypeIt from "typeit-react";
-import { FaUserTie, FaRocket, FaHandsHelping } from 'react-icons/fa';
-import { GiStrong, GiArchiveResearch, GiPayMoney, GiSprout } from 'react-icons/gi';
-import { AiOutlineUnorderedList, AiOutlineComment } from 'react-icons/ai';
-import { Link, navigate} from "gatsby";
+import { FaUserTie, FaRocket, FaHandsHelping } from "react-icons/fa";
+import {
+  GiStrong,
+  GiArchiveResearch,
+  GiPayMoney,
+  GiSprout,
+} from "react-icons/gi";
+import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
+import Link from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-
 const SuperStrong = ({ children }) => {
-  return <strong style={{ fontSize: "55px", fontFamily: "Pretendard Thin"}}>{children}</strong>;
+  return (
+    <strong style={{ fontSize: "55px", fontFamily: "Pretendard Thin" }}>
+      {children}
+    </strong>
+  );
 };
 
 // Step 2: Define your component
@@ -32,17 +40,19 @@ const IndexPage = () => {
           </h1>
         </center>
         <br></br>
-     </div>
+      </div>
       <div className="Blank"></div>
       <section>
         <h2>
-<div className = "icon"><FaUserTie /></div>
+          <div className="icon">
+            <FaUserTie />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-             &nbsp;&nbsp;현직한의삽니다
+            &nbsp;&nbsp;현직한의삽니다
           </TypeIt>
         </h2>
 
@@ -61,8 +71,10 @@ const IndexPage = () => {
       <div className="Blank"></div>
 
       <section>
-        <h2 >  
-      <div className = "icon"><GiArchiveResearch /></div>
+        <h2>
+          <div className="icon">
+            <GiArchiveResearch />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
@@ -71,7 +83,11 @@ const IndexPage = () => {
             &nbsp;&nbsp;안해본 게 없습니다
           </TypeIt>
         </h2>
-        <div data-sal="slide-right" data-sal-duration="1000" data-sal-easing="ease">
+        <div
+          data-sal="slide-right"
+          data-sal-duration="1000"
+          data-sal-easing="ease"
+        >
           <p className="etc">
             블로그, 파워링크, 네이버플레이스, 브랜드컨텐츠, 페이스북,
             인스타그램, 구글애즈, 키워드광고, 배너광고, 강남언니, 굿닥,
@@ -86,7 +102,12 @@ const IndexPage = () => {
             의견은 칼럼을 참고해주세요.
           </p>
           <div>
-            <button className="button"><div className = "icon"><AiOutlineUnorderedList /></div> &nbsp;&nbsp;칼럼 보러가기</button>
+            <button className="button">
+              <div className="icon">
+                <AiOutlineUnorderedList />
+              </div>{" "}
+              &nbsp;&nbsp;칼럼 보러가기
+            </button>
           </div>
         </div>
         <br></br>
@@ -95,7 +116,9 @@ const IndexPage = () => {
 
       <section>
         <h2>
-        <div className = 'icon'><AiOutlineComment /></div>
+          <div className="icon">
+            <AiOutlineComment />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
@@ -124,7 +147,9 @@ const IndexPage = () => {
 
       <section>
         <h2>
-        <div className = 'icon'><GiPayMoney /></div>
+          <div className="icon">
+            <GiPayMoney />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
@@ -150,7 +175,10 @@ const IndexPage = () => {
           </p>
 
           <div>
-           <AnchorLink to = "/#contact"> <button className="button">무료체험 신청하기</button></AnchorLink>
+            <AnchorLink to="/#contact">
+              {" "}
+              <button className="button">무료체험 신청하기</button>
+            </AnchorLink>
           </div>
           <br></br>
           <br></br>
@@ -162,14 +190,16 @@ const IndexPage = () => {
         <Grid cols="12" gap="10px">
           <Col xxl="4" md="6" sm="12">
             <h2>
-        <div className = 'icon'><GiStrong /></div>
+              <div className="icon">
+                <GiStrong />
+              </div>
 
               <TypeIt
                 options={{
                   waitUntilVisible: true,
                 }}
               >
-               &nbsp;&nbsp; 이런 일을 잘합니다
+                &nbsp;&nbsp; 이런 일을 잘합니다
               </TypeIt>
             </h2>
           </Col>
@@ -207,27 +237,24 @@ const IndexPage = () => {
           <Col xxl="4" md="6" sm="12">
             <div>
               <h2>
-        <div className = 'icon'><FaHandsHelping /></div>
-        &nbsp;&nbsp;Our Clients.</h2>
-
-
+                <div className="icon">
+                  <FaHandsHelping />
+                </div>
+                &nbsp;&nbsp;Our Clients.
+              </h2>
             </div>
           </Col>
           <Col xxl="8" md="6" sm="12">
-            <div
-              data-sal="fade"
-              data-sal-duration="300"
-              data-sal-easing="ease"
-            >
+            <div data-sal="fade" data-sal-duration="300" data-sal-easing="ease">
               <div>
                 <p className="client">
                   가_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_가나다라한의원_가나한의원_나다한의원_가나다라한의원_가나한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원_가나다한의원
                 </p>
-          <h2>
-            <Counter value={132} suffix={"개 클라이언트"} />{" "}
-            <Counter value={87.1} suffix={"% 재계약률"} />
-          </h2>
- 
+                <h2>
+                  <Counter value={132} suffix={"개 클라이언트"} />{" "}
+                  <Counter value={87.1} suffix={"% 재계약률"} />
+                </h2>
+
                 <p style={{ textAlign: "right" }}>
                   <b>당신</b>을 기다립니다.
                 </p>
@@ -240,13 +267,15 @@ const IndexPage = () => {
 
       <section>
         <h2>
-        <div className = "icon"><GiSprout /></div>
+          <div className="icon">
+            <GiSprout />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
             }}
           >
-           &nbsp;&nbsp; 고객과 함께 자라기
+            &nbsp;&nbsp; 고객과 함께 자라기
           </TypeIt>
         </h2>
         <div
@@ -285,7 +314,9 @@ const IndexPage = () => {
 
       <section>
         <h2>
-<div className = 'icon'><FaRocket /></div>
+          <div className="icon">
+            <FaRocket />
+          </div>
           <TypeIt
             options={{
               waitUntilVisible: true,
@@ -307,7 +338,10 @@ const IndexPage = () => {
             업무에 더 집중하실 수 있게 도와드립니다.
           </p>
           <div>
-           <AnchorLink to = "/#contact"> <button className="button">무료체험 신청하기</button></AnchorLink>
+            <AnchorLink to="/#contact">
+              {" "}
+              <button className="button">무료체험 신청하기</button>
+            </AnchorLink>
           </div>
           <br></br>
 
@@ -320,8 +354,7 @@ const IndexPage = () => {
             <button className="button">서비스 보러가기</button>
           </div>
         </div>
-<div className="Blank"></div>
-
+        <div className="Blank"></div>
       </section>
     </Layout>
   );

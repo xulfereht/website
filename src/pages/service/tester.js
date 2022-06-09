@@ -1,10 +1,10 @@
 // Step 1: Import React
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 import { Link } from "gatsby";
 import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 import ReactRoundedImage from "react-rounded-image";
-import Photo from "../images/profile_removebg.png";
+import Photo from "../../images/profile_removebg.png";
 import { GiSprout } from 'react-icons/gi';
 
 
