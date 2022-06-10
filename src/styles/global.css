@@ -58,6 +58,10 @@ p {
   line-height: 1.92;
 }
 
+.buttontypetext{
+  font-size: 1.2em;
+}
+
 .subtitle {
   font-size: 1.3em;
   display: block;
@@ -105,6 +109,29 @@ a {
 hr {
   border: solid 1px black;
 }
+
+.tablecell {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+.details {
+  border-bottom : 1px solid black;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+  font-size : 1em;
+  line-height: 1.2;
+
+}
+.subdetails {
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 1em;
+}
+
 
 .etc {
   color: #333333;
