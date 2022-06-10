@@ -13,7 +13,6 @@ const BlogPage = ({ data }) => {
         </Col>
     
         <Col xxl="9" md="6" sm="12">      <p>칼럼에는 우리의 마케팅철학과 전략을 소개합니다</p>
-      <ul>
         {data.allMdx.nodes.map((node) => (
           <article key={node.id}>
               <Link to={`/blog/${node.slug}`}>
@@ -21,7 +20,6 @@ const BlogPage = ({ data }) => {
               </Link>
           </article>
         ))}
-      </ul>
 </Col>
       </Grid>
 
