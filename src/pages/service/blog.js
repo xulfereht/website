@@ -48,11 +48,18 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <p>
-            마케팅 대행사의 기본 관행에서 벗어나{" "}
-            <span className="HL">파괴적인 가격</span>과 효율로 도와드리겠습니다.
-            모든마케팅에서 유일무이, <b>마케팅 효율의 끝</b>을 경험해 보세요!
-          </p>
+          <div
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
+            <p>
+              마케팅 대행사의 기본 관행에서 벗어나{" "}
+              <span className="HL">파괴적인 가격</span>과 효율로
+              도와드리겠습니다. 모든마케팅에서 유일무이, <b>마케팅 효율의 끝</b>
+              을 경험해 보세요!
+            </p>
+          </div>
           <div className="Blank"></div>
         </Col>
         <Col xxl="4" md="6" sm="12">
@@ -69,7 +76,12 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <div className="tablecell">
+          <div
+            className="tablecell"
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
             <p>
               까놓고 말해 <b>'이 구역 미친놈은 나야'</b> 정신으로 해야 마케팅
               캠페인이 성공할 수 있습니다. 저희는 클라이언트를 위해 기꺼이
@@ -86,7 +98,8 @@ const AboutPage = () => {
                   &nbsp;압도적인 포스팅당 비용
                 </summary>
                 <p className="subdetails">
-                  유례 없는 파격적인 단가에 고퀄리티 포스팅으로 상위노출이 가능합니다.
+                  유례 없는 파격적인 단가에 고퀄리티 포스팅으로 상위노출이
+                  가능합니다.
                 </p>
               </details>
             </div>
@@ -131,24 +144,31 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <p>
-            모든마케팅의 마케팅 기법은 <span className="HL">업계를 선도</span>
-            하고 있습니다. 트렌드에 민감한 일부 경쟁업체들은 모든마케팅의 마케팅
-            기법을 벤치마킹하고 있습니다. 업계에서 인정받는 것은 물론이거니와
-            지속적인 실험을 통해 마케팅 효율의 극한을 위해 노력합니다. 마케팅
-            <b> 꾼들이 먼저 알아보는</b> 모든마케팅과 함께 성장하세요.
-          </p>
-          <p>
-            저희의 마케팅 철학과 구체적인 방법론이 궁금하신 분들은 칼럼 글을
-            참고해주세요.
-          </p>
-          <div>
-            <button className="button">
-              <div className="icon">
-                <AiOutlineUnorderedList />
-              </div>{" "}
-              &nbsp;&nbsp;칼럼 보러가기
-            </button>
+          <div
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
+            <p>
+              모든마케팅의 마케팅 기법은 <span className="HL">업계를 선도</span>
+              하고 있습니다. 트렌드에 민감한 일부 경쟁업체들은 모든마케팅의
+              마케팅 기법을 벤치마킹하고 있습니다. 업계에서 인정받는 것은
+              물론이거니와 지속적인 실험을 통해 마케팅 효율의 극한을 위해
+              노력합니다. 마케팅
+              <b> 꾼들이 먼저 알아보는</b> 모든마케팅과 함께 성장하세요.
+            </p>
+            <p>
+              저희의 마케팅 철학과 구체적인 방법론이 궁금하신 분들은 칼럼 글을
+              참고해주세요.
+            </p>
+            <div>
+              <button className="button">
+                <div className="icon">
+                  <AiOutlineUnorderedList />
+                </div>{" "}
+                &nbsp;&nbsp;칼럼 보러가기
+              </button>
+            </div>
           </div>
           <div className="Blank"></div>
         </Col>
@@ -166,7 +186,12 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <div className="tablecell">
+          <div
+            className="tablecell"
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
             <div className="details"></div>
             <div className="details">
               <details>
@@ -203,7 +228,7 @@ const AboutPage = () => {
                   모든마케팅이 실행사 레벨에서 서포트를 해드립니다. 체계적인
                   포스팅 리포트 및 노출현황 모니터링을 통해 지점별 관리를
                   효율적으로 진행할 수 있습니다. 기타 특별한 서비스가 필요하다면
-                  저희에게 제안해주셔도 좋습니다. 
+                  저희에게 제안해주셔도 좋습니다.
                 </p>
               </details>
             </div>
@@ -238,21 +263,29 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <p>
-            시스템 업데이트로 인해 전반적인 키워드 노출도가 향상 되었습니다!
-            (2022.05 기준)
-          </p>
-          <p>경쟁이 치열한 '메인지역키워드' + '교통사고한의원' 상위노출 사례</p>
-          <StaticImage src="./images/service_blog_1.png" width={350} />
-          <p>
-            {" "}
-            경쟁이 치열해서 건바이나 월보장으로 비싸게 사용하던 키워드도
-            잡아드립니다
-          </p>
-          <details>
-            <summary> 키워드 예시 </summary>
-            <p>지역+한의원, 지역+교통사고한의원, 메인질환, 시술 키워드 등</p>
-          </details>
+          <div
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
+            <p>
+              시스템 업데이트로 인해 전반적인 키워드 노출도가 향상 되었습니다!
+              (2022.05 기준)
+            </p>
+            <p>
+              경쟁이 치열한 '메인지역키워드' + '교통사고한의원' 상위노출 사례
+            </p>
+            <StaticImage src="./images/service_blog_1.png" width={350} />
+            <p>
+              {" "}
+              경쟁이 치열해서 건바이나 월보장으로 비싸게 사용하던 키워드도
+              잡아드립니다
+            </p>
+            <details>
+              <summary> 키워드 예시 </summary>
+              <p>지역+한의원, 지역+교통사고한의원, 메인질환, 시술 키워드 등</p>
+            </details>
+          </div>
           <div className="Blank"></div>
         </Col>
         <Col xxl="4" md="6" sm="12">
@@ -270,14 +303,20 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <div>
-            <p>서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)</p>
-            <StaticImage src="./images/service_blog_2.png" width={300} />
-          </div>
-          <div>
-            <p>지역 광역시 동네한의원 (1년 이상 이용중)</p>
+          <div
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
+            <div>
+              <p>서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)</p>
+              <StaticImage src="./images/service_blog_2.png" width={300} />
+            </div>
+            <div>
+              <p>지역 광역시 동네한의원 (1년 이상 이용중)</p>
 
-            <StaticImage src="./images/service_blog_3.png" width={300} />
+              <StaticImage src="./images/service_blog_3.png" width={300} />
+            </div>
           </div>
         </Col>
       </Grid>
