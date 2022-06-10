@@ -22,368 +22,103 @@ const SuperStrong = ({ children }) => {
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="블로그 마케팅">
-      <div className="Blank"></div>
-      <div className="top">
-        <center>
-          <h1>
-            <TypeIt element={"h1"}>
-              나만 알고 싶은 <SuperStrong>블로그마케팅</SuperStrong>
-            </TypeIt>
-          </h1>
-        </center>
+    <Layout pageTitle="무료체험신청">
+      <h2>무료체험 신청안내</h2>
+      <div className="divmargin">
+        <div>
+          <h2>자격요건</h2>
+        </div>
+        <div>
+          <ul className = "subdetails">
+            <li> 자기 사업체를 운영중인 분</li>
+            <li> 혹은 마케팅 의사결정권한이 있는 담당자</li>
+          </ul>
+        </div>
       </div>
-
-      <Grid cols="12" gap="10px">
-        <Col xxl="4" md="6" sm="12">
+      <div className="divmargin">
+        <div>
+          <h2>해당 업종</h2>
+        </div>
+        <div>
+          <ul className = "subdetails">
+            <li>한의원</li>
+            <li>치과</li>
+            <li>성형외과</li>
+            <li>정형외과</li>
+            <li>한방병원</li>
+            <li>동물병원</li>
+            <li>변호사사무실</li>
+          </ul>
+          <p className="subtext">해당되지 않는 업종의 경우 별도문의 요망</p>
+        </div>
+      </div>
+      <div className="divmargin">
+        <div>
+          <h2>마케팅 사항</h2>
+          <p>
+            신청자가 원하는 키워드(최대 9개 키워드)로 해당 지역에 단기간에
+            물량폭탄 투하 후 상위노출 상태 확인
+          </p>
+          <p className="subtext">
+            유료 고객의 경우 훨씬 많은 키워드 스펙트럼을 더 많은 물량으로
+            커버하지만 무료체험에서는 일부 키워드에 한해서 노출도를 테스트하는
+            목적임.
+          </p>
+        </div>
+      </div>
+      <div className="divmargin">
+        <div>
+          <h2>신청방법</h2>
+          <p>무료체험은 아래와 같이 진행됩니다.</p>
+        </div>
+        <div className = 'divmargin'>
+          <h3>Step 1. 보증금 5만원 입금</h3>
+          <p>
+            보증금제도는 우리의 마케팅철학과 맞지 않은 분들을 사전에 필터링하여
+            불필요한 리소스 낭비를 줄이고 우리의 실질 클라이언트에게 보다 더
+            집중하기 위한 최소한의 장치입니다. 보증금은 체험이 종료되면 다시
+            되돌려드립니다. 아래 계좌로 업체명 혹은 담당자 이름으로 입금 후 Step
+            2.로 진행해주세요. 은행 000-00-00000
+          </p>
+        </div>
+        <div className = 'divmargin'>
+          <h3>Step 2. 데이터 입력</h3>
+          <p>
+            아래 폼에 들어가 내용을 입력해주세요. 
+            업체 정보를 비롯해 마케팅 진행에 필요한 사전 정보를 취합하는 과정입니다.
+            입력하신 데이터는
+            체험용 마케팅 컨텐츠 제작에 사용되므로 정확하게 작성해주세요.
+          </p>
           <div>
-            <h2>
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                대표님이 미쳤어요
-              </TypeIt>
-            </h2>
+            <a href="https://form.typeform.com/to/dNDeXpze" target="_blank">
+              <button className="button">&nbsp;&nbsp;데이터입력</button>
+            </a>
           </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <p>
-              마케팅 대행사의 기본 관행에서 벗어나{" "}
-              <span className="HL">파괴적인 가격</span>과 효율로
-              도와드리겠습니다. 모든마케팅에서 유일무이, <b>마케팅 효율의 끝</b>
-              을 경험해 보세요!
-            </p>
-          </div>
-          <div className="Blank"></div>
-        </Col>
-        <Col xxl="4" md="6" sm="12">
-          <div>
-            <h2>
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                비교불가 절대우위
-              </TypeIt>
-            </h2>
-          </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div
-            className="tablecell"
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <p>
-              <b>지역 1등 병원</b>이 되겠다는 마음가짐을 가진 분들을 모십니다.
-              그러려면 까놓고 말해 <b>'이 구역 미친놈은 나야'</b> 정신이
-              필요합니다. 우리는 클라이언트를 위해 기꺼이 미친놈이 되겠습니다.
-              고퀄리티 포스팅의 대량물량 폭탄 투하로 지역내 마케팅 경쟁에서
-              압도적인 우위를 점하는 전략을 완성합니다. 우리와 함께라면&nbsp;
-              <span className="HL">지역 1등 병원</span>은 바로 당신입니다.
-            </p>
-
-            <div className="details"></div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;압도적인 포스팅당 비용
-                </summary>
-                <p className="subdetails">
-                  유례 없는 파격적인 단가에 고퀄리티 포스팅으로 상위노출이
-                  가능합니다.
-                </p>
-              </details>
-            </div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;압도적인 물량
-                </summary>
-                <p className="subdetails">
-                  '이 새끼들 미친새끼들인가' 싶은 물량 폭탄으로 지역내
-                  검색수요를 장악합니다.
-                </p>
-              </details>
-            </div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;압도적인 가성비
-                </summary>
-                <p className="subdetails">
-                  모든마케팅의 서비스는 인하우스 직원 여럿을 두고 직접 운영해도
-                  내기 어려운 효율을 자랑합니다. 직원 한명 비용으로 상당한
-                  규모의 마케팅팀을 운영하는 효과를 내드립니다.
-                </p>
-              </details>
-            </div>
-          </div>
-          <div className="Blank"></div>
-        </Col>
-        <Col xxl="4" md="6" sm="12">
-          <div>
-            <h2>
-              {" "}
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                트렌드를 만듭니다
-              </TypeIt>
-            </h2>
-          </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <p>
-              우리는 스스로 <span className="HL">업계를 선도</span>
-              하고 있다고 자부합니다. 트렌드에 민감한 일부 경쟁업체들은
-              모든마케팅의 마케팅 기법을 벤치마킹하고 있습니다. 우리는 여기서
-              만족하지 않고 지속적인 실험을 통해 마케팅 효율의 극한을 위해
-              노력합니다. 마케팅
-              <b> 꾼들이 먼저 알아보는</b> 우리와 함께 성장하세요.
-            </p>
-            <p>
-              우리의 마케팅철학과 구체적인 방법론이 궁금하신 분들은 칼럼 글을
-              참고해주세요.
-            </p>
-            <div>
-              <button className="button">
-                <div className="icon">
-                  <AiOutlineUnorderedList />
-                </div>{" "}
-                &nbsp;&nbsp;칼럼 보러가기
-              </button>
-            </div>
-          </div>
-          <div className="Blank"></div>
-        </Col>
-        <Col xxl="4" md="6" sm="12">
-          <div>
-            <h2>
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                상황에 따라 골라쓰세요
-              </TypeIt>
-            </h2>
-          </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div
-            className="tablecell"
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <div className="details"></div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;마케팅 경험이 있다면
-                </summary>
-                <p className="subdetails">
-                  이미 마케팅을 하고 있다면 객관적으로 견적 비교를 해보세요.
-                  마케팅에 대한 이해가 어느 정도 있다면 모든마케팅과 함께 하지
-                  않을 이유를 찾기 어려울 겁니다. 더 낮은 가격에 더 많은 포스팅,
-                  더 나은 효과를 기대할 수 있습니다.
-                </p>
-              </details>
-            </div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;마케팅 경험이 없다면
-                </summary>
-                <p className="subdetails">
-                  좋은 대행사를 만나는 것이 첫 단추가 됩니다. 마케팅에 대한 전체
-                  그림을 그리실 수 있게 마케팅전략부터 구체적인 플랜까지 친절히
-                  상담드리겠습니다.
-                </p>
-              </details>
-            </div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  &nbsp;프랜차이즈 본사인 경우
-                </summary>
-                <p className="subdetails">
-                  여러 가맹점의 마케팅을 전담해야 하는 프랜차이즈 본사라면,
-                  저희가 실행사 레벨에서 서포트를 해드립니다. 체계적인 포스팅
-                  리포트 및 노출현황 모니터링을 통해 지점별 관리를 효율적으로
-                  진행할 수 있습니다. 기타 특별한 서비스가 필요하다면 역으로
-                  제안해주셔도 좋습니다.
-                </p>
-              </details>
-            </div>
-
-            <p>
-              마케팅 경험 또는 이해도에 따라{" "}
-              <span className="HL">맞춤형 컨설팅</span>을 해드릴 예정이니,
-              궁금한 사항은 하단의 상담신청 버튼을 활용해주세요.
-            </p>
-            <div>
-              <AnchorLink to="#contact">
-                {" "}
-                <button className="button">상담신청하기</button>
-              </AnchorLink>
-            </div>
-          </div>
-          <div className="Blank"></div>
-        </Col>
-        <Col xxl="4" md="6" sm="12">
-          <div>
-            <h2>
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                직접 보여드립니다
-              </TypeIt>
-            </h2>
-          </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <center>
-              <div className="noticeCard">
-                {" "}
-                <p className="notice">
-                  🚧 시스템 업데이트로 인해 더욱 강력해졌습니다! (May,2022.)
-                </p>
-              </div>
-            </center>
-            <p>
-              {" "}
-              경쟁이 치열해서 건바이나 월보장으로 비싸게 사용하던 키워드 포함{" "}
-              <b>무엇이든 잡아드립니다!</b>
-            </p>
-            <div className="details"></div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetext">
-                  요청가능 키워드목록
-                </summary>
-                <ul>
-                  <li>지역 + 한의원, 교통사고한의원, 다이어트</li>
-                  <li>지역 + 교통사고한의원</li>
-                  <li>지역 + 치과, 임플란트</li>
-                  <li>지역 + 성형외과, 정형외과, 수술병원</li>
-                  <li>지역 + 동물병원</li>
-                  <li>지역 + 변호사, 이혼변호사, 형사변호사</li>
-                  <li>기타 요청 키워드</li>
-                </ul>
-              </details>
-            </div>
-            <center>
-              <div className="card">
-                <center>
-                  <StaticImage src="./images/service_blog_1.png" width={350} />{" "}
-                </center>
-                <p className="notice">
-                  '메인지역' + <b>교통사고한의원</b> 상위노출 사례
-                </p>
-              </div>
-            </center>
-          </div>
-          <center>
-            <div className="card">
-              <center>
-                <StaticImage src="./images/service_blog_4.png" width={350} />{" "}
-              </center>
-              <p className="notice">
-                '메인지역' + <b>임플란트</b> 상위노출 사례
-              </p>
-            </div>
-          </center>
-          <div className="Blank"></div>
-        </Col>
-        <Col xxl="4" md="6" sm="12">
-          <div>
-            <h2>
-              <TypeIt
-                options={{
-                  waitUntilVisible: true,
-                }}
-              >
-                다른 분들의 후기
-              </TypeIt>
-            </h2>
-          </div>
-        </Col>
-        <Col xxl="8" md="6" sm="12">
-          <div>
-            <div
-              data-sal="slide-left"
-              data-sal-duration="1000"
-              data-sal-easing="ease"
-            >
-              <p>
-                이미 많은 클라이언트분들이 모든마케팅과 함께 성공적인 사업을
-                이끌어나가고 계십니다. 클라이언트가 비지니스의 본질적인 가치를
-                고객에게 전달하는데 집중할 수 있게 마케팅과 매출 고민은 저희가
-                대신 합니다.
-              </p>
-              <div>
-                <center>
-                  <Example />
-                  <p className="etc">
-                    경기 A업체 3월 광고집행 시작(매출 2.5배 상승)
-                  </p>
-                </center>
-              </div>
-            </div>
-            <div
-              data-sal="slide-left"
-              data-sal-duration="1000"
-              data-sal-easing="ease"
-            >
-              <center>
-              <div className="card">
-                <center>
-                  <StaticImage src="./images/service_blog_2.png" width={300} />{" "}
-                </center>
-                <p className="notice">
-                  서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)
-                </p>
-              </div>
-              </center>
-              <center>
-              <div className="card">
-                <center>
-                  <StaticImage src="./images/service_blog_3.png" width={300} />{" "}
-                </center>
-                <p className="notice">
-                  지역 광역시 동네한의원 (1년 이상 이용중)
-                </p>
-              </div>
-              </center>
-            </div>
-          </div>
-        </Col>
-      </Grid>
+        </div>
+        <div className = 'divmargin'>
+          <h3>Step 3. 담당자 배정 및 커뮤니케이션</h3>
+          <p>
+            보증금 입금 및 데이터입력이 확인되면 담당자가 배정되며 영업일 기준
+            48시간 이내에 담당자가 연락을 드립니다. 동시에 입력데이터를 바탕으로 광고소재 초안 작업이 시작됩니다. 이후 마케팅 컨텐츠 초안에 대한 피드백
+            및 광고소재 컨펌이 진행됩니다. 시안 컨펌이 완료된 다음 날부터
+            마케팅이 즉시 실행됩니다.
+          </p>
+        </div>
+        <div className = 'divmargin'>
+          <h3>Step 4. 마케팅 실행 및 피드백</h3>
+          <p>
+            담당자를 통해 마케팅 실행에 대한 리포팅이 진행되고 이때 서비스가
+            만족스럽다면 서비스 유료 이용을 결정하시면 됩니다. 체험을 그대로
+            마무리하고 싶다면 체험단 진행과 관련된 간단한 설문을 통해 피드백을
+            주시면 체험이 종료됩니다.
+          </p>
+        </div>
+        <div className = 'divmargin'>
+          <h3>Step 5. 보증금 환급</h3>
+          <p>피드백 설문이 확인되면 보증금 환급과 동시에 모든 절차는 완료됩니다.</p>
+        </div>
+      </div>
+      <div className="Blank"></div>
       <div className="Blank"></div>
     </Layout>
   );

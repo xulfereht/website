@@ -214,6 +214,9 @@ text-align: center;
   text-align: center;
   font-size: 1.7em;
 }
+.divmargin {
+  margin-top: 50px;
+}
 
 .Blank {
   height: 100px;

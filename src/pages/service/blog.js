@@ -163,12 +163,14 @@ const AboutPage = () => {
               참고해주세요.
             </p>
             <div>
-              <button className="button">
-                <div className="icon">
-                  <AiOutlineUnorderedList />
-                </div>{" "}
-                &nbsp;&nbsp;칼럼 보러가기
-              </button>
+              <Link to="/blog">
+                <button className="button">
+                  <div className="icon">
+                    <AiOutlineUnorderedList />
+                  </div>{" "}
+                  &nbsp;&nbsp;칼럼 보러가기
+                </button>
+              </Link>
             </div>
           </div>
           <div className="Blank"></div>
@@ -244,6 +246,43 @@ const AboutPage = () => {
                 {" "}
                 <button className="button">상담신청하기</button>
               </AnchorLink>
+            </div>
+          </div>
+          <div className="Blank"></div>
+        </Col>
+        <Col xxl="4" md="6" sm="12">
+          <div>
+            <h2>
+              <TypeIt
+                options={{
+                  waitUntilVisible: true,
+                }}
+              >
+                미리 경험하세요
+              </TypeIt>
+            </h2>
+          </div>
+        </Col>
+        <Col xxl="8" md="6" sm="12">
+          <div
+            className="tablecell"
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-easing="ease"
+          >
+            <p>
+              모든마케팅의 서비스를 먼저 체험해보고 싶다면 무료체험 이벤트를
+              활용하세요.{" "}
+            </p>
+            <div>
+              <Link to="/service/betatester">
+                <button className="button">
+                  <div className="icon">
+                    <AiOutlineUnorderedList />
+                  </div>{" "}
+                  &nbsp;&nbsp;무료체험신청
+                </button>
+              </Link>
             </div>
           </div>
           <div className="Blank"></div>
@@ -361,24 +400,30 @@ const AboutPage = () => {
               data-sal-easing="ease"
             >
               <center>
-              <div className="card">
-                <center>
-                  <StaticImage src="./images/service_blog_2.png" width={300} />{" "}
-                </center>
-                <p className="notice">
-                  서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)
-                </p>
-              </div>
+                <div className="card">
+                  <center>
+                    <StaticImage
+                      src="./images/service_blog_2.png"
+                      width={300}
+                    />{" "}
+                  </center>
+                  <p className="notice">
+                    서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)
+                  </p>
+                </div>
               </center>
               <center>
-              <div className="card">
-                <center>
-                  <StaticImage src="./images/service_blog_3.png" width={300} />{" "}
-                </center>
-                <p className="notice">
-                  지역 광역시 동네한의원 (1년 이상 이용중)
-                </p>
-              </div>
+                <div className="card">
+                  <center>
+                    <StaticImage
+                      src="./images/service_blog_3.png"
+                      width={300}
+                    />{" "}
+                  </center>
+                  <p className="notice">
+                    지역 광역시 동네한의원 (1년 이상 이용중)
+                  </p>
+                </div>
               </center>
             </div>
           </div>

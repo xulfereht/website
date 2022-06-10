@@ -48,6 +48,7 @@ const NavbarLinks = () => {
       <NavItem to="/about">회사소개</NavItem>
       <NavItem to="/service/blog">서비스</NavItem>
       <NavItem to="/blog">칼럼</NavItem>
+      <NavItem to="/service/betatester">무료체험신청</NavItem>
       <NavItem to="#contact">문의하기</NavItem>
     </>
   );

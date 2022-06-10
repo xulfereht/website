@@ -14,7 +14,7 @@ import {
   GiSprout,
 } from "react-icons/gi";
 import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
-import Link from "gatsby";
+import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const SuperStrong = ({ children }) => {
@@ -102,12 +102,13 @@ const IndexPage = () => {
             의견은 칼럼을 참고해주세요.
           </p>
           <div>
+            <Link to = "/blog">
             <button className="button">
               <div className="icon">
                 <AiOutlineUnorderedList />
               </div>{" "}
               &nbsp;&nbsp;칼럼 보러가기
-            </button>
+            </button></Link>
           </div>
         </div>
         <br></br>
@@ -175,10 +176,10 @@ const IndexPage = () => {
           </p>
 
           <div>
-            <AnchorLink to="/#contact">
+            <Link to="/service/betatester">
               {" "}
               <button className="button">무료체험 신청하기</button>
-            </AnchorLink>
+            </Link>
           </div>
           <br></br>
           <br></br>
@@ -231,7 +232,7 @@ const IndexPage = () => {
         </Grid>
       </section>
       <div className="Blank"></div>
-
+{/*
       <section>
         <Grid cols="12" gap="10px">
           <Col xxl="4" md="6" sm="12">
@@ -264,7 +265,7 @@ const IndexPage = () => {
         </Grid>
       </section>
       <div className="Blank"></div>
-
+*/}
       <section>
         <h2>
           <div className="icon">
@@ -338,10 +339,10 @@ const IndexPage = () => {
             업무에 더 집중하실 수 있게 도와드립니다.
           </p>
           <div>
-            <AnchorLink to="/#contact">
+            <Link to="/service/betatester">
               {" "}
               <button className="button">무료체험 신청하기</button>
-            </AnchorLink>
+            </Link>
           </div>
           <br></br>
 
@@ -351,7 +352,9 @@ const IndexPage = () => {
           <br></br>
 
           <div>
+            <Link to ="/service/blog">
             <button className="button">서비스 보러가기</button>
+            </Link>
           </div>
         </div>
         <div className="Blank"></div>
