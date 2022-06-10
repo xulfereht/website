@@ -43,10 +43,9 @@ h2 {
 }
 
 .icon {
-    display:inline-block;
-    vertical-align: -2px;
+  display: inline-block;
+  vertical-align: -2px;
 }
-
 
 p {
   font-size: 1.2em;
@@ -58,7 +57,7 @@ p {
   line-height: 1.92;
 }
 
-.buttontypetext{
+.buttontypetext {
   font-size: 1.2em;
 }
 
@@ -75,8 +74,8 @@ p {
 .button {
   width: 200px;
   height: 50px;
-  color : #fff;
-  background-color: #0336ff;;
+  color: #fff;
+  background-color: #0336ff;
   font-size: 1.1em;
   font-family: "Pretendard Regular";
   position: relative;
@@ -117,13 +116,12 @@ hr {
 }
 
 .details {
-  border-bottom : 1px solid black;
+  border-bottom: 1px solid black;
   height: auto;
   margin: auto;
   padding: 15px;
-  font-size : 1em;
+  font-size: 1em;
   line-height: 1.2;
-
 }
 .subdetails {
   color: black;
@@ -131,7 +129,6 @@ hr {
   text-align: left;
   font-size: 1em;
 }
-
 
 .etc {
   color: #333333;
@@ -151,15 +148,27 @@ hr {
   font-size: 0.9em;
 }
 
+.card {
+  margin-top : 35px;
+  background-color : white;
+  padding: 5px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.notice{
+font-size : 0.9em;
+text-align: center;
+}
+
 .quote {
-  font-family: 'Pretendard Thin';
-  font-style :italic;
+  font-family: "Pretendard Thin";
+  font-style: italic;
   color: black;
   line-height: 1.4;
   text-align: center;
   font-size: 1.1em;
 }
-
 
 .ourClient {
   line-height: 1.2;
@@ -179,8 +188,6 @@ hr {
 .half_HL {
   background: linear-gradient(to top, #ff0266 50%, transparent 50%);
 }
-
-
 
 #tsparticles {
   position: fixed;

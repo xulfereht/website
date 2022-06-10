@@ -9,6 +9,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import TypeIt from "typeit-react";
 import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import Example from "../../components/barchart";
 
 const SuperStrong = ({ children }) => {
   return (
@@ -83,11 +84,11 @@ const AboutPage = () => {
             data-sal-easing="ease"
           >
             <p>
-              <b>지역 1등 병원</b>이 되겠다는 마음가짐을 가진 분들을 모십니다. 그러려면 까놓고 말해 <b>'이 구역 미친놈은 나야'</b> 정신이 필요합니다.
-              우리는 클라이언트를 위해 기꺼이
-              미친놈이 되겠습니다. 고퀄리티 포스팅의 대량물량 폭탄 투하로 지역내
-              마케팅 경쟁에서 압도적인 우위를 점하는 전략을 완성합니다.
-              우리와 함께라면&nbsp;
+              <b>지역 1등 병원</b>이 되겠다는 마음가짐을 가진 분들을 모십니다.
+              그러려면 까놓고 말해 <b>'이 구역 미친놈은 나야'</b> 정신이
+              필요합니다. 우리는 클라이언트를 위해 기꺼이 미친놈이 되겠습니다.
+              고퀄리티 포스팅의 대량물량 폭탄 투하로 지역내 마케팅 경쟁에서
+              압도적인 우위를 점하는 전략을 완성합니다. 우리와 함께라면&nbsp;
               <span className="HL">지역 1등 병원</span>은 바로 당신입니다.
             </p>
 
@@ -151,9 +152,9 @@ const AboutPage = () => {
           >
             <p>
               우리는 스스로 <span className="HL">업계를 선도</span>
-              하고 있다고 자부합니다. 트렌드에 민감한 일부 경쟁업체들은 모든마케팅의
-              마케팅 기법을 벤치마킹하고 있습니다. 업계에서 인정받는 것은
-              물론이거니와 지속적인 실험을 통해 마케팅 효율의 극한을 위해
+              하고 있다고 자부합니다. 트렌드에 민감한 일부 경쟁업체들은
+              모든마케팅의 마케팅 기법을 벤치마킹하고 있습니다. 우리는 여기서
+              만족하지 않고 지속적인 실험을 통해 마케팅 효율의 극한을 위해
               노력합니다. 마케팅
               <b> 꾼들이 먼저 알아보는</b> 우리와 함께 성장하세요.
             </p>
@@ -200,9 +201,9 @@ const AboutPage = () => {
                 </summary>
                 <p className="subdetails">
                   이미 마케팅을 하고 있다면 객관적으로 견적 비교를 해보세요.
-                  마케팅에 대한 이해가 어느 정도 있다면 모든마케팅과 함께 하지 않을 이유를
-                  찾기 어려울 겁니다. 더 낮은 가격에 더 많은 포스팅, 더 나은 효과를
-                  기대할 수 있습니다.
+                  마케팅에 대한 이해가 어느 정도 있다면 모든마케팅과 함께 하지
+                  않을 이유를 찾기 어려울 겁니다. 더 낮은 가격에 더 많은 포스팅,
+                  더 나은 효과를 기대할 수 있습니다.
                 </p>
               </details>
             </div>
@@ -225,10 +226,10 @@ const AboutPage = () => {
                 </summary>
                 <p className="subdetails">
                   여러 가맹점의 마케팅을 전담해야 하는 프랜차이즈 본사라면,
-                  저희가 실행사 레벨에서 서포트를 해드립니다. 체계적인
-                  포스팅 리포트 및 노출현황 모니터링을 통해 지점별 관리를
-                  효율적으로 진행할 수 있습니다. 기타 특별한 서비스가 필요하다면
-                  역으로 제안해주셔도 좋습니다.
+                  저희가 실행사 레벨에서 서포트를 해드립니다. 체계적인 포스팅
+                  리포트 및 노출현황 모니터링을 통해 지점별 관리를 효율적으로
+                  진행할 수 있습니다. 기타 특별한 서비스가 필요하다면 역으로
+                  제안해주셔도 좋습니다.
                 </p>
               </details>
             </div>
@@ -247,17 +248,15 @@ const AboutPage = () => {
           </div>
           <div className="Blank"></div>
         </Col>
-
         <Col xxl="4" md="6" sm="12">
           <div>
             <h2>
-              {" "}
               <TypeIt
                 options={{
                   waitUntilVisible: true,
                 }}
               >
-                실제 노출 사례
+                직접 보여드립니다
               </TypeIt>
             </h2>
           </div>
@@ -268,30 +267,57 @@ const AboutPage = () => {
             data-sal-duration="1000"
             data-sal-easing="ease"
           >
-            <p>
-              시스템 업데이트로 인해 전반적인 키워드 노출도가 향상 되었습니다!
-              (2022.05 기준)
-            </p>
-            <p>
-              경쟁이 치열한 '메인지역키워드' + '교통사고한의원' 상위노출 사례
-            </p>
-            <StaticImage src="./images/service_blog_1.png" width={350} />
+            <div className="card">
+              {" "}
+              <p className="notice">
+                🚧 시스템 업데이트로 인해 더욱 강력해졌습니다! (May,2022.)
+              </p>
+            </div>
             <p>
               {" "}
-              경쟁이 치열해서 건바이나 월보장으로 비싸게 사용하던 키워드도
-              잡아드립니다
+              경쟁이 치열해서 건바이나 월보장으로 비싸게 사용하던 키워드 포함{" "}
+              <b>무엇이든 잡아드립니다!</b>
             </p>
-            <details>
-              <summary> 키워드 예시 </summary>
-              <p>지역+한의원, 지역+교통사고한의원, 메인질환, 시술 키워드 등</p>
-            </details>
+            <div className="details"></div>
+            <div className="details">
+              <details>
+                <summary className="buttontypetext">
+                  요청가능 키워드목록
+                </summary>
+                <ul>
+                  <li>지역 + 한의원, 교통사고한의원, 다이어트</li>
+                  <li>지역 + 교통사고한의원</li>
+                  <li>지역 + 치과, 임플란트</li>
+                  <li>지역 + 성형외과, 정형외과, 수술병원</li>
+                  <li>지역 + 동물병원</li>
+                  <li>지역 + 변호사, 이혼변호사, 형사변호사</li>
+                  <li>기타 요청 키워드</li>
+                </ul>
+              </details>
+            </div>
+
+            <div className="card">
+              <center>
+                <StaticImage src="./images/service_blog_1.png" width={350} />{" "}
+              </center>
+              <p className="notice">
+                '메인지역' + <b>교통사고한의원</b> 상위노출 사례
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <center>
+              <StaticImage src="./images/service_blog_4.png" width={350} />{" "}
+            </center>
+            <p className="notice">
+              '메인지역' + <b>임플란트</b> 상위노출 사례
+            </p>
           </div>
           <div className="Blank"></div>
         </Col>
         <Col xxl="4" md="6" sm="12">
           <div>
             <h2>
-              {" "}
               <TypeIt
                 options={{
                   waitUntilVisible: true,
@@ -303,19 +329,48 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="8" md="6" sm="12">
-          <div
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
-            <div>
-              <p>서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)</p>
-              <StaticImage src="./images/service_blog_2.png" width={300} />
+          <div>
+            <div
+              data-sal="slide-left"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
+            >
+              <p>
+                이미 많은 클라이언트분들이 모든마케팅과 함께 성공적인 사업을
+                이끌어나가고 계십니다. 클라이언트가 비지니스의 본질적인 가치를
+                고객에게 전달하는데 집중할 수 있게 마케팅과 매출 고민은 저희가
+                대신 합니다.
+              </p>
+              <div>
+                <center>
+                  <Example />
+                  <p className="etc">
+                    경기 A업체 3월 광고집행 시작(매출 2.5배 상승)
+                  </p>
+                </center>
+              </div>
             </div>
-            <div>
-              <p>지역 광역시 동네한의원 (1년 이상 이용중)</p>
-
-              <StaticImage src="./images/service_blog_3.png" width={300} />
+            <div
+              data-sal="slide-left"
+              data-sal-duration="1000"
+              data-sal-easing="ease"
+            >
+              <div className="card">
+                <center>
+                  <StaticImage src="./images/service_blog_2.png" width={300} />{" "}
+                </center>
+                <p className="notice">
+                  서울 ㅇㅇ구 반특화한의원 (1년 이상 이용중)
+                </p>
+              </div>
+              <div className="card">
+                <center>
+                  <StaticImage src="./images/service_blog_3.png" width={300} />{" "}
+                </center>
+                <p className="notice">
+                  지역 광역시 동네한의원 (1년 이상 이용중)
+                </p>
+              </div>
             </div>
           </div>
         </Col>
