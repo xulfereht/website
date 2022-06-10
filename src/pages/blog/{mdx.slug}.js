@@ -10,7 +10,7 @@ const BlogPost = ({ data }) => {
 
       <Grid cols="12" gap="10px">
         <Col xxl="4" md="6" sm="12">
-          <h2>{data.mdx.frontmatter.title}</h2>
+          <h3>{data.mdx.frontmatter.title}</h3>
           <p className="subtext">{data.mdx.frontmatter.date}</p>
         </Col>
         <Col xxl="8" md="6" sm="12">
