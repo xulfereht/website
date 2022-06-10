@@ -196,7 +196,7 @@ const AboutPage = () => {
             <div className="details">
               <details>
                 <summary className="buttontypetext">
-                  &nbsp;다른 대행사를 활용중인 경우
+                  &nbsp;마케팅 경험이 있다면
                 </summary>
                 <p className="subdetails">
                   이미 마케팅을 하고 있다면 객관적으로 견적 비교를 해보세요.
@@ -209,7 +209,7 @@ const AboutPage = () => {
             <div className="details">
               <details>
                 <summary className="buttontypetext">
-                  &nbsp;마케팅 경험이 없는 경우
+                  &nbsp;마케팅 경험이 없다면
                 </summary>
                 <p className="subdetails">
                   좋은 대행사를 만나는 것이 첫 단추가 됩니다. 마케팅에 대한 전체
