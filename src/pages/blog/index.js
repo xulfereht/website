@@ -8,11 +8,11 @@ const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
       <Grid cols="12" gap="10px">
-        <Col xxl="4" md="6" sm="12">
+        <Col xxl="3" md="6" sm="12">
           <h2>전문가 칼럼</h2>
         </Col>
     
-        <Col xxl="8" md="6" sm="12">      <p>칼럼에는 우리의 마케팅철학과 전략을 소개합니다</p>
+        <Col xxl="9" md="6" sm="12">      <p>칼럼에는 우리의 마케팅철학과 전략을 소개합니다</p>
       <ul>
         {data.allMdx.nodes.map((node) => (
           <article key={node.id}>

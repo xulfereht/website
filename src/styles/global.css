@@ -162,6 +162,15 @@ hr {
   border-radius: 30px;
 }
 
+@media (max-width: 768px) {
+  .blogCard {
+  height : 40px;
+  width: 70% ;
+  font-size: 0.9em;
+}
+
+}
+
 .blogCard:hover {
 background-color: #ff0266;
 color: #fff;
