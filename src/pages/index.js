@@ -29,6 +29,8 @@ const SuperStrong = ({ children }) => {
 const IndexPage = () => {
   return (
     <Layout pageTitle="Marketing Is Everything">
+<Link to = "/service/betatester" className="cta">무료체험 이벤트신청</Link>
+
       <div className="Blank"></div>
 
       <div className="top">

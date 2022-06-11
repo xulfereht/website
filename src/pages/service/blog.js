@@ -23,6 +23,10 @@ const SuperStrong = ({ children }) => {
 const AboutPage = () => {
   return (
     <Layout pageTitle="블로그 마케팅">
+      <Link to="/service/betatester" className="cta">
+        무료체험 이벤트신청
+      </Link>
+
       <div className="Blank"></div>
       <div className="top">
         <center>
