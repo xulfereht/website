@@ -94,6 +94,15 @@ const AboutPage = () => {
               <button className="button">&nbsp;&nbsp;데이터입력</button>
             </a>
           </div>
+<div className="divmargin">
+<p>마케팅 컨텐츠 제작에는 아래와 같은 이미지 파일도 필요합니다. 다음 이메일 주소로 업체명과 함께 파일을 보내주세요. abc@adc.com</p>
+<ul className = "subdetails">
+<li>인테리어 사진 6장 (640x480, png)</li>
+<li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
+<li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
+
+</ul>
+</div>
         </div>
         <div className = 'divmargin'>
           <h3>Step 3. 담당자 배정 및 커뮤니케이션</h3>

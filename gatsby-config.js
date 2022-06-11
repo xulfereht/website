@@ -40,14 +40,14 @@ module.exports = {
         },
       },
     },
-    {
-        resolve: "gatsby-plugin-channel",
-       options: {
-        channelPluginSettings: {
-          pluginKey: '575f7dfb-1537-4fde-bc60-ce2c7d923d1d'
-        },
-      },
-    },
+    //{
+     //   resolve: "gatsby-plugin-channel",
+     //  options: {
+      //  channelPluginSettings: {
+      //    pluginKey: '575f7dfb-1537-4fde-bc60-ce2c7d923d1d'
+     //   },
+    //  },
+   // },
   ],
     
 };
