@@ -25,6 +25,7 @@ const Layout = ({ pageTitle, children }) => {
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <Part />
+      <Link to = "/service/betatester" className="cta">무료체험 이벤트신청</Link>
       <Navbar />
       <div
         style={{

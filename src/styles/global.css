@@ -152,11 +152,11 @@ hr {
   align-items: center;
   font-size: 1.1em;
   height: 40px;
-  width : 280px;
-  margin-top : 30px;
-  color : black;
+  width: 280px;
+  margin-top: 30px;
+  color: black;
   padding: 5px 25px;
-  background-color : white;
+  background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 30px;
@@ -164,40 +164,38 @@ hr {
 
 @media (max-width: 768px) {
   .blogCard {
-  height : 40px;
-  width: 90% ;
-  font-size: 0.9em;
-}
-
+    height: 40px;
+    width: 90%;
+    font-size: 0.9em;
+  }
 }
 
 .blogCard:hover {
-background-color: #ff0266;
-color: #fff;
-
+  background-color: #ff0266;
+  color: #fff;
 }
 
 .noticeCard {
-  width : 95%;
-  margin-top : 35px;
-  background-color : white;
+  width: 95%;
+  margin-top: 35px;
+  background-color: white;
   padding: 3px 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 .card {
-  width : 70%;
-  margin-top : 35px;
-  background-color : white;
+  width: 70%;
+  margin-top: 35px;
+  background-color: white;
   padding: 5px;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-.notice{
-font-size : 0.9em;
-text-align: center;
+.notice {
+  font-size: 0.9em;
+  text-align: center;
 }
 
 .quote {
@@ -240,4 +238,42 @@ text-align: center;
   left: 0;
   top: 0;
   z-index: -1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(0, 30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.cta {
+  z-index: 9999;
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  max-width: 708px;
+  height: 48px;
+  color: #fff;
+  background-color: #ff0266;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.3s;
+  -webkit-box-shadow: 0 0 4px 2px rgba(25, 24, 23, 0.4);
+  -moz-box-shadow: 0 0 4px 2px rgba(25, 24, 23, 0.4);
+  box-shadow: 0 0 4px 2px rgba(25, 24, 23, 0.4);
+  animation: 0.8s ease fadeIn;
+  font-family: inter, sans-serif;
 }
