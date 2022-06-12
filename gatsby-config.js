@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `http://www.moden.marketing/`,
   },
   plugins: [
+      `gatsby-plugin-react-helmet`,
     "gatsby-plugin-sitemap",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",

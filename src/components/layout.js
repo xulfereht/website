@@ -7,6 +7,7 @@ import Navbar from "./Navbar/Navbar";
 import Part from "../components/particles";
 import Widget from "../components/typeform";
 import { GiPlanetConquest } from "react-icons/gi";
+import { Helmet } from "react-helmet";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -20,6 +21,10 @@ const Layout = ({ pageTitle, children }) => {
   `);
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="naver-site-verification" content="f434ac47dc8b12e02f6996c1dfbec8defa6bf923" />
+      </Helmet>
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
