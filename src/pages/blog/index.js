@@ -6,7 +6,7 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="마케팅 칼럼">
       <Grid cols="12" gap="10px">
         <Col xxl="3" md="6" sm="12">
           <h2>전문가 칼럼</h2>

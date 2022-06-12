@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `모든마케팅`,
+    title: `병원 치과 한의원 마케팅 모든마케팅`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

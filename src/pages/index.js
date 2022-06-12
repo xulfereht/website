@@ -28,7 +28,7 @@ const SuperStrong = ({ children }) => {
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Marketing Is Everything">
+    <Layout pageTitle="한의사가 직접 하는 모든마케팅">
 <Link to = "/service/betatester" className="cta">무료체험 이벤트신청</Link>
 
       <div className="Blank"></div>

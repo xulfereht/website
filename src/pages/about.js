@@ -10,7 +10,7 @@ import { GiSprout } from "react-icons/gi";
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About Us">
       <h2>
         {" "}
         <div className="icon">
