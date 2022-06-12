@@ -28,6 +28,7 @@ const Layout = ({ pageTitle, children }) => {
           name="naver-site-verification"
           content="f434ac47dc8b12e02f6996c1dfbec8defa6bf923"
         />
+        <link rel="canonical" href="https://www.moden.marketing/" />
         <title>
           {pageTitle} | {data.site.siteMetadata.title}
         </title>
