@@ -15,6 +15,7 @@ const Layout = ({ pageTitle, children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -23,11 +24,16 @@ const Layout = ({ pageTitle, children }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <meta name="naver-site-verification" content="f434ac47dc8b12e02f6996c1dfbec8defa6bf923" />
+        <meta
+          name="naver-site-verification"
+          content="f434ac47dc8b12e02f6996c1dfbec8defa6bf923"
+        />
+        <title>
+          {pageTitle} | {data.site.siteMetadata.title}
+        </title>
+        <meta name="description" content={data.site.siteMetadata.description} />
       </Helmet>
-      <title>
-        {pageTitle} | {data.site.siteMetadata.title}
-      </title>
+
       <Part />
       <Navbar />
       <div
