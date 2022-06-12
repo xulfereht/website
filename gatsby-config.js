@@ -1,11 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `병원 치과 한의원 마케팅 모든마케팅`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `모든마케팅`,
+    description:
+      "병원, 치과, 한의원, 변호사 등 전문직 마케팅 전문 모든마케팅입니다.",
+    siteUrl: `http://www.moden.marketing/`,
   },
   plugins: [
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "http://www.moden.marketing",
+        sitemap: "http://moden.markeing/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -15,7 +26,7 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-plugin-styled-components",
-    `gatsby-plugin-anchor-links`,  
+    `gatsby-plugin-anchor-links`,
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
@@ -41,14 +52,14 @@ module.exports = {
       },
     },
     //{
-     //   resolve: "gatsby-plugin-channel",
-     //  options: {
-      //  channelPluginSettings: {
-      //    pluginKey: '575f7dfb-1537-4fde-bc60-ce2c7d923d1d'
-     //   },
+    //   resolve: "gatsby-plugin-channel",
+    //  options: {
+    //  channelPluginSettings: {
+    //    pluginKey: '575f7dfb-1537-4fde-bc60-ce2c7d923d1d'
+    //   },
     //  },
-   // },
-{
+    // },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -66,13 +77,11 @@ module.exports = {
         },
       },
     },
-{
-    resolve: `gatsby-plugin-facebook-pixel`,
-    options: {
-      pixelId: "401592791878972",
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "401592791878972",
+      },
     },
-  },
   ],
-    
 };
-
