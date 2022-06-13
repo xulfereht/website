@@ -168,6 +168,7 @@ hr {
     width: 90%;
     font-size: 0.9em;
   }
+  
 }
 
 .blogCard:hover {
@@ -177,6 +178,7 @@ hr {
 
 .noticeCard {
   width: 95%;
+  max-width : 450px;
   margin-top: 35px;
   background-color: white;
   padding: 3px 3px;
