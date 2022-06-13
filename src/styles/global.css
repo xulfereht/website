@@ -56,7 +56,9 @@ p {
   margin-inline-end: 0px;
   line-height: 1.92;
 }
-
+.buttontypetextSmall {
+  font-size: 1em;
+}
 .buttontypetext {
   font-size: 1.2em;
 }
@@ -205,7 +207,6 @@ hr {
   font-style: italic;
   color: black;
   line-height: 1.4;
-  text-align: center;
   font-size: 1.1em;
 }
 
