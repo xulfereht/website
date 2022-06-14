@@ -115,7 +115,9 @@ const AboutPage = () => {
           <div className="divmargin">
             <p>
               마케팅 컨텐츠 제작에는 아래와 같은 이미지 파일도 필요합니다. 아래
-              버튼을 클릭 후 채널톡 메신저를 통해 파일을 첨부해 보내주세요.
+              버튼을 클릭 후 채널톡 메신저를 통해 파일을 첨부해 보내주세요. 사진
+              파일을 보내주시지 않으면 데이터입력 단계가 마무리 되지 않아 Step 3.
+              으로 넘어가지 않으니 유의해주세요.
             </p>
             <div>
               <a href="https://3x4wy.channel.io" target="_blank">
@@ -123,20 +125,21 @@ const AboutPage = () => {
               </a>
             </div>
             <div>
-            <p>파일 첨부 방법 </p>
-            <ul className="subdetails">
-              <li> 이미지올리기 버튼 클릭</li>
-              <li> 새 문의하기 버튼 클릭</li>
-              <li> 상호명 사업자번호 입력</li>
-              <li> 담당자 이름 연락처 입력 </li>
-              <li> 우측하단 📎 클립 버튼 클릭 후 파일 업로드</li>
-            </ul>
-            <p>파일 목록 및 형식</p>
-            <ul className="subdetails">
-              <li>인테리어 사진 6장 (640x480, png)</li>
-              <li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
-              <li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
-            </ul></div>
+              <p>파일 첨부 방법 </p>
+              <ul className="subdetails">
+                <li> 이미지올리기 버튼 클릭</li>
+                <li> 새 문의하기 버튼 클릭</li>
+                <li> 상호명 사업자번호 입력</li>
+                <li> 담당자 이름 연락처 입력 </li>
+                <li> 우측하단 📎 클립 버튼 클릭 후 파일 업로드</li>
+              </ul>
+              <p>파일 목록 및 형식</p>
+              <ul className="subdetails">
+                <li>인테리어 사진 6장 (640x480, png)</li>
+                <li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
+                <li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="divmargin">
