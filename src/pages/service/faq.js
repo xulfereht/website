@@ -352,23 +352,6 @@ const AboutPage = () => {
             <div className="details">
               <details>
                 <summary className="buttontypetextSmall">
-                  &nbsp;모든마케팅이 혜택 차원에서 제시한, '월단위 계정 생성후
-                  전달시 그만큼 혜택 물량 추가 송출' 관련해서, 저의 경우 월단위
-                  계정 생성 후 전달이 어려울 것 같습니다. 어떻게 해야 할까요?
-                </summary>
-                <p className="subdetails">
-                  계정을 매월 추가로 생성해 전달주시는 부분은 계약서상
-                  의무사항이 아닙니다. 클라이언트가 열심히 계정을 월단위로
-                  공급해 주시면 저희가 그만큼 혜택으로 더 드리는 맥락이니, 이
-                  부분이 어려우실 경우 계정 전달을 하지 않으셔도 됩니다. 이와는
-                  별개로 계약 의무물량은 계약서에 명시된 대로 모든마케팅의 보유
-                  계정으로 진행되니 걱정하지 않으셔도 됩니다.
-                </p>
-              </details>
-            </div>
-            <div className="details">
-              <details>
-                <summary className="buttontypetextSmall">
                   &nbsp;계약일과 실제 제가 원하는 작업착수일이 1개월 이상 차이가
                   날 경우 어떻게 계약하나요?
                 </summary>
