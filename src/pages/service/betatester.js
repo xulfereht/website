@@ -24,6 +24,8 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="무료체험신청">
       <h2>무료체험 신청안내</h2>
+      <p>모든마케팅이 제공하는 <Link to = "/service/blog"><span className = "HL">블로그서비스</span></Link> 를 미리 체험해볼 수 있는 이벤트 안내입니다.</p>
+      <p className = "subtext">* 블로그서비스 상세내용은 해당 페이지를 참조해주세요.</p>
       <div className="divmargin">
         <div>
           <h2>자격요건</h2>
@@ -49,7 +51,7 @@ const AboutPage = () => {
             <li>동물병원</li>
             <li>변호사사무실</li>
           </ul>
-          <p className="subtext">해당되지 않는 업종의 경우 별도문의 요망</p>
+          <p className="subtext">* 해당되지 않는 업종의 경우 별도문의 요망</p>
         </div>
       </div>
       <div className="divmargin">
@@ -106,7 +108,8 @@ const AboutPage = () => {
             <p>
               마케팅 컨텐츠 제작에는 아래와 같은 이미지 파일도 필요합니다. 아래
               버튼을 클릭 후 채널톡 메신저를 통해 파일을 첨부해 보내주세요.
-              (파일을 첨부하려면 입력창 우측하단 📎 클립 버튼을 누르시면 됩니다.)
+              (파일을 첨부하려면 입력창 우측하단 📎 클립 버튼을 누르시면
+              됩니다.)
             </p>
             <ul className="subdetails">
               <li>인테리어 사진 6장 (640x480, png)</li>
@@ -143,6 +146,8 @@ const AboutPage = () => {
           <h3>Step 5. 보증금 환급</h3>
           <p>
             피드백 설문이 확인되면 보증금 환급과 동시에 모든 절차는 완료됩니다.
+            유료서비스 전환 없이 무료체험이 종료되면 무료체험 진행시 발행한
+            포스팅은 임의변경 혹은 삭제될 수 있음을 미리 안내드립니다.
           </p>
         </div>
       </div>
