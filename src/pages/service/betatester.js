@@ -24,8 +24,16 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="무료체험신청">
       <h2>무료체험 신청안내</h2>
-      <p>모든마케팅이 제공하는 <Link to = "/service/blog"><span className = "HL">블로그서비스</span></Link> 를 미리 체험해볼 수 있는 이벤트 안내입니다.</p>
-      <p className = "subtext">* 블로그서비스 상세내용은 해당 페이지를 참조해주세요.</p>
+      <p>
+        모든마케팅이 제공하는{" "}
+        <Link to="/service/blog">
+          <span className="HL">블로그서비스</span>
+        </Link>{" "}
+        를 미리 체험해볼 수 있는 이벤트 안내입니다.
+      </p>
+      <p className="subtext">
+        * 블로그서비스 상세내용은 해당 페이지를 참조해주세요.
+      </p>
       <div className="divmargin">
         <div>
           <h2>자격요건</h2>
@@ -108,19 +116,27 @@ const AboutPage = () => {
             <p>
               마케팅 컨텐츠 제작에는 아래와 같은 이미지 파일도 필요합니다. 아래
               버튼을 클릭 후 채널톡 메신저를 통해 파일을 첨부해 보내주세요.
-              (파일을 첨부하려면 입력창 우측하단 📎 클립 버튼을 누르시면
-              됩니다.)
             </p>
-            <ul className="subdetails">
-              <li>인테리어 사진 6장 (640x480, png)</li>
-              <li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
-              <li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
-            </ul>
             <div>
               <a href="https://3x4wy.channel.io" target="_blank">
                 <button className="button">&nbsp;&nbsp;이미지 올리기</button>
               </a>
             </div>
+            <div>
+            <p>파일 첨부 방법 </p>
+            <ul className="subdetails">
+              <li> 이미지올리기 버튼 클릭</li>
+              <li> 새 문의하기 버튼 클릭</li>
+              <li> 상호명 사업자번호 입력</li>
+              <li> 이름 연락처 입력 </li>
+              <li> 우측하단 📎 클립 버튼 클릭 후 파일 업로드</li>
+            </ul>
+            <p>파일 목록 및 형식</p>
+            <ul className="subdetails">
+              <li>인테리어 사진 6장 (640x480, png)</li>
+              <li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
+              <li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
+            </ul></div>
           </div>
         </div>
         <div className="divmargin">
