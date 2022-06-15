@@ -44,8 +44,8 @@ const AboutPage = () => {
                 </summary>
                 <p className="subdetails">
                   모든마케팅은 유례 없는 파격적인 단가에 고퀄리티 포스팅으로
-                  상위노출이 가능합니다. 아래 각 서비스 페이지를 참고
-                  부탁드립니다.
+                  상위노출이 가능합니다. 각 서비스 페이지를 참고
+                  부탁드립니다. <AnchorLink to ="/service/blog/#pricing"><span className = "anchorLink">서비스별 가격안내>></span> </AnchorLink>
                 </p>
               </details>
             </div>

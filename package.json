@@ -42,6 +42,7 @@
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
+    "react-pricing-table": "^0.3.0",
     "react-rounded-image": "^2.0.14",
     "react-smooth-number-counter": "^0.0.5",
     "react-styled-grid-layout": "^1.0.2",

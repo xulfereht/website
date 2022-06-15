@@ -226,6 +226,10 @@ hr {
   height: 100px;
 }
 
+.anchorLink{
+  color: #ff0266;
+}
+
 .HL {
   color: white;
   background: #ff0266;

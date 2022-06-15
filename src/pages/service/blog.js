@@ -275,7 +275,7 @@ const AboutPage = () => {
             data-sal-easing="ease"
           >
             <div className="details"></div>
-            <div className="details">
+            <div id = "pricing" className="details">
               <details>
                 <summary className="buttontypetext">
                   &nbsp;💣 폭탄 블로그 일반형
