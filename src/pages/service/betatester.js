@@ -23,11 +23,11 @@ const SuperStrong = ({ children }) => {
 const AboutPage = () => {
   return (
     <Layout pageTitle="무료체험신청">
-      <h2> 🎉  무료체험 신청안내</h2>
+      <h1> 🎉  무료체험 신청안내</h1>
       <p>
         모든마케팅이 제공하는{" "}
         <Link to="/service/blog">
-          <span className="HL">블로그서비스</span>
+          <b>블로그서비스</b>
         </Link>{" "}
         를 미리 체험해볼 수 있는 이벤트 안내입니다.
       </p>
@@ -64,7 +64,7 @@ const AboutPage = () => {
       </div>
       <div className="divmargin">
         <div>
-          <h2> 🔫  마케팅 사항</h2>
+          <h2> 🌐  마케팅 사항</h2>
           <p>
             신청자가 원하는 키워드(최대 9개 키워드)로 해당 지역에 단기간에
             물량폭탄 투하 후 상위노출 상태 확인
@@ -82,7 +82,7 @@ const AboutPage = () => {
           <p>무료체험은 아래와 같이 진행됩니다.</p>
         </div>
         <div className="divmargin">
-          <h3> 🧪 Step 1. 보증금 5만원 입금</h3>
+          <h2> Step 1. 보증금 5만원 입금</h2>
           <p>
             보증금제도는 우리의 마케팅철학과 맞지 않은 분들을 사전에 필터링하여
             불필요한 리소스 낭비를 줄이고 우리의 실질 클라이언트에게 보다 더
@@ -101,7 +101,7 @@ const AboutPage = () => {
           </center>
         </div>
         <div className="divmargin">
-          <h3> 🧪 Step 2. 데이터 입력</h3>
+          <h2> Step 2. 데이터 입력</h2>
           <p>
             아래 폼에 들어가 내용을 입력해주세요. 업체 정보를 비롯해 마케팅
             진행에 필요한 사전 정보를 취합하는 과정입니다. 입력하신 데이터는
@@ -143,7 +143,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="divmargin">
-          <h3> 🧪 Step 3. 담당자 배정 및 커뮤니케이션</h3>
+          <h2> Step 3. 담당자 배정 및 커뮤니케이션</h2>
           <p>
             보증금 입금 및 데이터입력이 확인되면 담당자가 배정되며 영업일 기준
             48시간 이내에 담당자가 연락을 드립니다. 동시에 입력데이터를 바탕으로
@@ -153,7 +153,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="divmargin">
-          <h3> 🧪 Step 4. 마케팅 실행 및 피드백</h3>
+          <h2> Step 4. 마케팅 실행 및 피드백</h2>
           <p>
             담당자를 통해 마케팅 실행에 대한 리포팅이 진행되고 이때 서비스가
             만족스럽다면 서비스 유료 이용을 결정하시면 됩니다. 체험을 그대로
@@ -162,7 +162,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="divmargin">
-          <h3> 🧪 Step 5. 보증금 환급</h3>
+          <h2> Step 5. 보증금 환급</h2>
           <p>
             피드백 설문이 확인되면 보증금 환급과 동시에 모든 절차는 완료됩니다.
             유료서비스 전환 없이 무료체험이 종료되면 무료체험 진행시 발행한
