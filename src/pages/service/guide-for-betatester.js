@@ -2,23 +2,9 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 import { Link } from "gatsby";
-import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
-import Photo from "../../images/profile_removebg.png";
-import { GiSprout } from "react-icons/gi";
-import { StaticImage } from "gatsby-plugin-image";
-import TypeIt from "typeit-react";
-import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-import Example from "../../components/barchart";
 import Pricingtable from "../../components/pricingtable"
 
-const SuperStrong = ({ children }) => {
-  return (
-    <strong style={{ fontSize: "45px", fontFamily: "Pretendard Thin" }}>
-      {children}
-    </strong>
-  );
-};
+
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -168,11 +154,10 @@ const AboutPage = () => {
 <Pricingtable />
 <p>유료서비스 이용을 원하신다면 담당자에게 말씀해주세요. 계약서 작성 및 결제방식을 추가로 안내드리도록 하겠습니다.</p>
 </div>
-      <div className="Blank"></div>
 
       <div className="divmargin">
         <div>
-          <h3>더 궁금한 점이 있다면?</h3>
+          <h2>더 궁금한 점이 있다면?</h2>
 
           <p>
             먼저 FAQ 페이지에서 해당 내용을 찾아보세요. 그래도 궁금증이 해소되지
@@ -186,9 +171,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="Blank"></div>
 
-      <div className="Blank"></div>
       <div className="Blank"></div>
     </Layout>
   );

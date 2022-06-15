@@ -3,21 +3,9 @@ import * as React from "react";
 import Layout from "../../components/layout";
 import { Link } from "gatsby";
 import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
-import Photo from "../../images/profile_removebg.png";
-import { GiSprout } from "react-icons/gi";
-import { StaticImage } from "gatsby-plugin-image";
-import TypeIt from "typeit-react";
-import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import Example from "../../components/barchart";
 
-const SuperStrong = ({ children }) => {
-  return (
-    <strong style={{ fontSize: "45px", fontFamily: "Pretendard Thin" }}>
-      {children}
-    </strong>
-  );
-};
+
 
 // Step 2: Define your component
 const AboutPage = () => {
