@@ -23,7 +23,7 @@ const SuperStrong = ({ children }) => {
 const AboutPage = () => {
   return (
     <Layout pageTitle="무료체험신청">
-      <h2>무료체험 신청안내</h2>
+      <h2> 🎉  무료체험 신청안내</h2>
       <p>
         모든마케팅이 제공하는{" "}
         <Link to="/service/blog">
@@ -36,7 +36,7 @@ const AboutPage = () => {
       </p>
       <div className="divmargin">
         <div>
-          <h2>자격요건</h2>
+          <h2> 🤔  자격요건</h2>
         </div>
         <div>
           <ul className="subdetails">
@@ -47,7 +47,7 @@ const AboutPage = () => {
       </div>
       <div className="divmargin">
         <div>
-          <h2>해당 업종</h2>
+          <h2> 🏬  해당 업종</h2>
         </div>
         <div>
           <ul className="subdetails">
@@ -64,7 +64,7 @@ const AboutPage = () => {
       </div>
       <div className="divmargin">
         <div>
-          <h2>마케팅 사항</h2>
+          <h2> 🔫  마케팅 사항</h2>
           <p>
             신청자가 원하는 키워드(최대 9개 키워드)로 해당 지역에 단기간에
             물량폭탄 투하 후 상위노출 상태 확인
@@ -78,7 +78,7 @@ const AboutPage = () => {
       </div>
       <div className="divmargin">
         <div>
-          <h2>신청방법</h2>
+          <h2> 🔖  신청방법</h2>
           <p>무료체험은 아래와 같이 진행됩니다.</p>
         </div>
         <div className="divmargin">
