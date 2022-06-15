@@ -23,7 +23,7 @@ const SuperStrong = ({ children }) => {
 const AboutPage = () => {
   return (
     <Layout pageTitle="무료체험 어떠셨나요?">
-      <h2>무료체험 어떠셨나요?</h2>
+      <h2> 🎉 무료체험 어떠셨나요?</h2>
       <p>
         무료 체험을 통해 요청하신 키워드에 대한 포스팅 테스트가 완료되었습니다.
         담당자를 통해 포스팅 내역과 노출 현황에 대한 개략적인 내용을 보고
@@ -31,7 +31,7 @@ const AboutPage = () => {
         어떤 부분이 달라지는지에 대해서 안내해드리려고 합니다.
       </p>
       <div className="divmargin">
-        <h2>다양해진 키워드 스펙트럼</h2>
+        <h2> 🌈 다양해진 키워드 스펙트럼</h2>
 
         <p>
           <ul>
@@ -70,7 +70,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="divmargin">
-        <h2>비교를 불허하는 압도적인 물량 </h2>
+        <h2> 👍 비교를 불허하는 압도적인 물량 </h2>
         <p>
           <ul>
             <li>폭탄블로그 일반형의 월간 약속물량은 120건입니다.</li>{" "}
@@ -90,7 +90,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="divmargin">
-        <h2> 편의성을 높인 리포트 시스템 </h2>
+        <h2> 📈 편의성을 높인 리포트 시스템 </h2>
         <p>
           마케팅 집행 현황을 인트라넷을 통해 확인하실수 있습니다. <br></br>
           <ul>
@@ -111,7 +111,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div className="divmargin">
-        <h2>포스팅 방식의 변경 </h2>
+        <h2> 🚀 포스팅 방식의 변경 </h2>
         <p>
           모든마케팅의 유료서비스에서는 두 종류의 계정을 활용해 포스팅을
           진행합니다.
@@ -131,7 +131,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="divmargin">
-        <h2>컨텐츠 이미지 변경 및 커스터마이징 </h2>
+        <h2> 🔧 컨텐츠 이미지 변경 및 커스터마이징 </h2>
         <p>
           <ul>
             <li>
