@@ -190,6 +190,7 @@ const AboutPage = () => {
 
     </PricingSlot>
 </PricingTable>
+<p>유료서비스 이용을 원하신다면 담당자에게 말씀해주세요. 계약서 작성 및 결제방식을 추가로 안내드리도록 하겠습니다.</p>
 </div>
       <div className="Blank"></div>
 
