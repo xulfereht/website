@@ -10,7 +10,6 @@ const BlogPostTemplate = ({ data, location }) => {
 
   return (
       <article
-        className="blog-post"
         itemScope
         itemType="http://schema.org/Article"
       >
