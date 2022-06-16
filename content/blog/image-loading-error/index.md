@@ -1,5 +1,5 @@
 ---
-title: 인트라 이미지 안보이는 이슈
+title: image-loading-error 
 date: 2022-06-16T10:53:16.287Z
 description: 사용자매뉴얼
 ---
