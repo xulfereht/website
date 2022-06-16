@@ -11,22 +11,6 @@ module.exports = {
         "gatsby-plugin-image",
         "gatsby-plugin-sharp",
         {
-            resolve: `gatsby-plugin-netlify-cms`,
-            options: {
-                customizeWebpackConfig: (config, { plugins }) => {
-                    const Plugin = require("...")
-
-                    config.plugins.push(
-                        plugins.define({
-                            "process.env.MY_VAR": JSON.stringify("my var value"),
-                        })
-                    )
-
-                    config.plugins.push(new Plugin())
-                },
-            },
-        },
-        {
             resolve: "gatsby-plugin-robots-txt",
             options: {
                 host: "http://www.moden.marketing",
