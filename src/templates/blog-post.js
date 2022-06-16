@@ -1,34 +1,35 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
+import * as React from "react";
+import { Link, graphql } from "gatsby";
+import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 const BlogPostTemplate = ({ data, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  const { previous, next } = data;
 
   return (
-      <article
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <header>
+    <Layout pageTitle={post.frontmatter.title}>
+      <Grid cols="12" gap="10px">
+        <Col xxl="4" md="6" sm="12">
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
-        </header>
-        <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <hr />
-        <footer>
-        </footer>
-      </article>
-        )
-}
+          <p>{post.frontmatter.tags}</p>
+        </Col>
+        <Col xxl="8" md="6" sm="12">
+          <section
+            dangerouslySetInnerHTML={{ __html: post.html }}
+            itemProp="articleBody"
+          />
+        </Col>
+        <div className="Blank"></div>
+      </Grid>
+    </Layout>
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
@@ -68,4 +69,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
