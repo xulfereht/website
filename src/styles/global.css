@@ -143,6 +143,11 @@ hr {
   text-align: left;
   font-size: 0.9em;
 }
+
+.unHL {
+  color: #999999;
+}
+
 .client {
   color: #999999;
   line-height: 1.2;
