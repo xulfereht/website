@@ -448,12 +448,7 @@ const AboutPage = () => {
           </div>
         </Col>
         <Col xxl="12" md="6" sm="12">
-          <div
-            className="tablecell"
-            data-sal="slide-left"
-            data-sal-duration="1000"
-            data-sal-easing="ease"
-          >
+          <div>
             <Pricingtable />
           </div>
         </Col>
