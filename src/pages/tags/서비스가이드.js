@@ -32,7 +32,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
 query {
-  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "마케팅칼럼"}}}) {
+  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "서비스가이드"}}}) {
     nodes {
       id
       fields {
