@@ -11,9 +11,9 @@ tags:
 
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/66f07fe0-1917-41a4-8b37-01ab3871d646/Screenshot_20201016-170309_Chrome.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220617T021945Z&X-Amz-Expires=86400&X-Amz-Signature=0d72f634a21231a5830f4d3775bf70058f27b8731c37674f2f58491a08bc6941&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_20201016-170309_Chrome.jpg%22&x-id=GetObject  =300x)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/66f07fe0-1917-41a4-8b37-01ab3871d646/Screenshot_20201016-170309_Chrome.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220617T021945Z&X-Amz-Expires=86400&X-Amz-Signature=0d72f634a21231a5830f4d3775bf70058f27b8731c37674f2f58491a08bc6941&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_20201016-170309_Chrome.jpg%22&x-id=GetObject){ width=50% }
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/89022f4a-c416-48f5-86be-3d9efc401d83/_2020-10-16__4.07.08.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220617T021950Z&X-Amz-Expires=86400&X-Amz-Signature=d5b188d53cb87c8e2bd2079689d9868d49ed3b75a7ad646f1fe8b144d12d10be&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2020-10-16__4.07.08.png%22&x-id=GetObject  =300x)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/89022f4a-c416-48f5-86be-3d9efc401d83/_2020-10-16__4.07.08.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220617%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220617T021950Z&X-Amz-Expires=86400&X-Amz-Signature=d5b188d53cb87c8e2bd2079689d9868d49ed3b75a7ad646f1fe8b144d12d10be&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2020-10-16__4.07.08.png%22&x-id=GetObject){ width=50% }
 
 즉, **롱테일 전략**이란, 유입량이 매우 적은 키워드부터, 적절히 애매한 유입량의 키워드들까지, 총 검색 키워드 중 비주류에 해당하는 80%를 장악하는 전략입니다. 
 
