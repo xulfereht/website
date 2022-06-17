@@ -39,7 +39,7 @@ const AboutPage = () => {
           <h2> 🤔  자격요건</h2>
         </div>
         <div>
-          <ul className="subdetails">
+          <ul>
             <li> 자기 사업체를 운영중인 분</li>
             <li> 혹은 마케팅 의사결정권한이 있는 담당자</li>
           </ul>
@@ -50,7 +50,7 @@ const AboutPage = () => {
           <h2> 🏬  해당 업종</h2>
         </div>
         <div>
-          <ul className="subdetails">
+          <ul>
             <li>한의원</li>
             <li>치과</li>
             <li>성형외과</li>
@@ -126,7 +126,7 @@ const AboutPage = () => {
             </div>
             <div>
               <p>파일 첨부 방법 </p>
-              <ul className="subdetails">
+              <ul>
                 <li> 이미지올리기 버튼 클릭</li>
                 <li> 새 문의하기 버튼 클릭</li>
                 <li> 상호명 사업자번호 입력</li>
@@ -134,7 +134,7 @@ const AboutPage = () => {
                 <li> 우측하단 📎 클립 버튼 클릭 후 파일 업로드</li>
               </ul>
               <p>파일 목록 및 형식</p>
-              <ul className="subdetails">
+              <ul>
                 <li>인테리어 사진 6장 (640x480, png)</li>
                 <li>프로필 사진 1장 (정면 반신샷, 480x480, png)</li>
                 <li>업무 중인 스틸컷 사진 1장(640x480, png)</li>
