@@ -13,7 +13,7 @@ import { GiPlanetConquest } from "react-icons/gi";
 
 const SuperStrong = ({ children }) => {
   return (
-    <strong style={{ fontSize: "45px", fontFamily: "Pretendard Thin" }}>
+    <strong style={{ fontSize: "45px", fontFamily: "Noto Sans KR" }}>
       {children}
     </strong>
   );

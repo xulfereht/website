@@ -19,7 +19,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const SuperStrong = ({ children }) => {
   return (
-    <strong style={{ fontSize: "55px", fontFamily: "Pretendard Thin" }}>
+    <strong style={{ fontSize: "55px", fontFamily: "Noto Sans KR" }}>
       {children}
     </strong>
   );

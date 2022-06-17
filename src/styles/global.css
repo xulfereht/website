@@ -10,7 +10,7 @@ body {
   background-color: transparent;
   margin: 0;
   padding: 0;
-  font-family: "Pretendard Regular";
+  font-family: "Noto Sans KR", sans-serif;
   color: #111;
   word-wrap: break-word;
   font-kerning: normal;
@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: "Pretendard Light";
+  font-family: "Noto Sans KR";
 }
 
 img {
@@ -51,7 +51,7 @@ li {
 
 
 .blogTitle {
-  font-family: "Pretendard Regular";
+  font-family: "Noto Sans KR";
   display: block;
   align-items: center;
   font-size: 2em;
@@ -125,7 +125,7 @@ p {
   color: #fff;
   background-color: #0336ff;
   font-size: 1.1em;
-  font-family: "Pretendard Regular";
+  font-family: "Noto Sans KR";
   position: relative;
   border: 0px solid black;
   display: block;
@@ -274,7 +274,7 @@ hr {
 }
 
 .quote {
-  font-family: "Pretendard Thin";
+  font-family: "Noto Sans KR";
   font-style: italic;
   color: black;
   line-height: 1.4;
