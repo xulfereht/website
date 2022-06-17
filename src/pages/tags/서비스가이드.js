@@ -6,21 +6,23 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="마케팅 칼럼">
+    <Layout pageTitle="서비스가이드">
       <Grid cols="12" gap="10px">
         <Col xxl="3" md="6" sm="12">
-          <h2>전문가 칼럼</h2>
+          <h2>서비스 가이드</h2>
         </Col>
     
-        <Col xxl="9" md="6" sm="12">      <p>칼럼에는 우리의 마케팅철학과 전략을 소개합니다</p>
-        {data.allMarkdownRemark.nodes.map((node) => (
+        <Col xxl="9" md="6" sm="12">      <p>서비스 이용과 관련된 문서 목록입니다.</p>
+            <ul>      
+      {data.allMarkdownRemark.nodes.map((node) => (
           <article key={node.id}>
               <Link to={`${node.fields.slug}`}>
-                <div className = 'blogCard'>
-                  {node.frontmatter.title}</div></Link>
+                  <li> {node.frontmatter.title}</li></Link>
           </article>
         ))}
-</Col>
+      </ul>
+      </Col>
+
       </Grid>
 
       <div className="Blank"></div>
@@ -30,7 +32,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
 query {
-  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "하나"}}}) {
+  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "마케팅칼럼"}}}) {
     nodes {
       id
       fields {
