@@ -5,10 +5,10 @@ import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="서비스가이드">
+    <Layout pageTitle="유저매뉴얼 목록">
       <Grid cols="12" gap="10px">
         <Col xxl="3" md="6" sm="12">
-          <h2>서비스 가이드</h2>
+          <h2>유저매뉴얼 목록</h2>
         </Col>
     
         <Col xxl="9" md="6" sm="12">      <p>서비스 이용과 관련된 문서 목록입니다.</p>
@@ -31,7 +31,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
 query {
-  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "서비스가이드"}}}) {
+  allMarkdownRemark(filter: {frontmatter: {tags: {eq: "유저매뉴얼"}}}) {
     nodes {
       id
       fields {

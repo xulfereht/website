@@ -22,8 +22,8 @@ const SuperStrong = ({ children }) => {
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="서비스 사용가이드">
-      <h2>서비스 사용가이드</h2>
+    <Layout pageTitle="서비스가이드">
+      <h2>서비스가이드</h2>
       <p>
         저희 서비스를 이용하신다면 아마 이 페이지에 자주 접속하실 거에요.
         <b>즐겨찾기</b>에 추가해두시면 좋을 거에요.
@@ -57,13 +57,18 @@ const AboutPage = () => {
           <h3>궁금한 점이 있다면?</h3>
 
           <p>
-            먼저 FAQ 페이지에서 해당 내용을 찾아보세요. 그래도 궁금증이 해소되지 않는다면 문의하기 메뉴를 활용해주세요.
+            먼저 FAQ 페이지와 유저매뉴얼 목록에서 해당 내용을 찾아보세요.
+            그래도 궁금증이 해소되지 않는다면 문의하기 메뉴를 활용해주세요.
           </p>
-          
 
           <div>
             <Link to="/service/faq" target="_blank">
               <button className="button">&nbsp;&nbsp;자주 묻는 질문 </button>
+            </Link>
+          </div>
+          <div className = 'divmargin'>
+            <Link to="/tags/유저매뉴얼" target="_blank">
+              <button className="button">&nbsp;&nbsp;유저매뉴얼 목록 </button>
             </Link>
           </div>
         </div>
