@@ -52,7 +52,7 @@ const AboutPage = () => {
         </p>
 
         <div>
-          <Link to="/blog/longtail-marketing" target="_blank">
+          <Link to="/로컬비지니스와-롱테일마케팅">
             <button className="button">&nbsp;&nbsp;롱테일마케팅 </button>
           </Link>
         </div>
@@ -120,7 +120,7 @@ const AboutPage = () => {
           문서로 안내해드리고 있습니다. 관련해서는 아래 문서를 꼭 참고해주세요.
         </p>
         <div>
-          <Link to="/service/how-to-make-id" target="_blank">
+          <Link to="/블로그-아이디-만드는-방법-및-주의사항/" target="_blank">
             <button className="button">&nbsp;&nbsp;계정생성 매뉴얼</button>
           </Link>
         </div>

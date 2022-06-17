@@ -9,6 +9,7 @@ import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Example from "../../components/barchart";
 import Pricingtable from "../../components/pricingtable";
+import Widget from "../../components/typeform";
 
 const SuperStrong = ({ children }) => {
   return (
@@ -166,7 +167,7 @@ const AboutPage = () => {
               참고해주세요.
             </p>
             <div>
-              <Link to="/blog">
+              <Link to="/tags/마케팅칼럼">
                 <button className="button">
                   <div className="icon">
                     <AiOutlineUnorderedList />
@@ -470,6 +471,9 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="Blank"></div>
+      <div id = "contact">
+      <Widget />
+      </div>
     </Layout>
   );
 };

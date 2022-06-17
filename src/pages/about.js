@@ -144,7 +144,6 @@ const AboutPage = () => {
           <div className="Blank"></div>
         </Col>
       </Grid>
-      <div className="Blank"></div>
     </Layout>
   );
 };

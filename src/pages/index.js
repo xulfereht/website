@@ -16,6 +16,7 @@ import {
 import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { Link } from "gatsby";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import Widget from "../components/typeform";
 
 const SuperStrong = ({ children }) => {
     return (
@@ -104,7 +105,7 @@ const IndexPage = () => {
             의견은 칼럼을 참고해주세요.
         </p>
         <div>
-            <Link to = "/blog">
+            <Link to = "/tags/마케팅칼럼">
                 <button className="button">
                     <div className="icon">
                         <AiOutlineUnorderedList />
@@ -361,6 +362,8 @@ data-sal-easing="ease"
   </div>
   <div className="Blank"></div>
       </section>
+    <div id = "contact">
+    <Widget /></div>
   </Layout>
     );
 };
