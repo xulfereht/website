@@ -33,29 +33,34 @@ const BlogPostTemplate = ({ data, location }) => {
           />
           <div className="topBlank"></div>
           <div>
-            { post.frontmatter.tags[0] === '마케팅칼럼' ? (
-            <div>
-              {next ? (
+            {post.frontmatter.tags[0] === "유저매뉴얼" ? (
+              <div>
+                {next ? (
+                  <div className="blogNav">
+                    <Link to={next.fields.slug}>
+                      Next : {next.frontmatter.title}
+                    </Link>
+                  </div>
+                ) : (
+                  <div></div>
+                )}
+                {previous ? (
+                  <div className="blogNav">
+                    <Link to={previous.fields.slug}>
+                      Prev : {previous.frontmatter.title}
+                    </Link>
+                  </div>
+                ) : (
+                  <div></div>
+                )}
                 <div className="blogNav">
-                  <Link to={next.fields.slug}>
-                    Next : {next.frontmatter.title}
-                  </Link>
+                  <Link to="/tags/유저매뉴얼/">매뉴얼 목록으로</Link>
                 </div>
-              ) : (
-                <div></div>
-              )}
-              {previous ? (
-                <div className="blogNav">
-                  <Link to={previous.fields.slug}>
-                    Prev : {previous.frontmatter.title}
-                  </Link>
-                </div>
-              ) : (
-                <div></div>
-              )}
-            </div>
-            ) :(
-              <div></div>
+              </div>
+            ) : (
+              <div className="blogNav">
+                <Link to="/tags/마케팅칼럼/">마케팅칼럼 목록으로</Link>
+              </div>
             )}
           </div>
         </Col>
@@ -91,7 +96,10 @@ export const pageQuery = graphql`
         tags
       }
     }
-    previous: markdownRemark(id: { eq: $previousPostId }) {
+    previous: markdownRemark(
+      id: { eq: $previousPostId }
+      frontmatter: { tags: { eq: "유저매뉴얼" } }
+    ) {
       fields {
         slug
       }
@@ -99,7 +107,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    next: markdownRemark(id: { eq: $nextPostId }) {
+    next: markdownRemark(
+      id: { eq: $nextPostId }
+      frontmatter: { tags: { eq: "유저매뉴얼" } }
+    ) {
       fields {
         slug
       }
