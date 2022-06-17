@@ -16,7 +16,8 @@ const BlogPage = ({ data }) => {
         {data.allMarkdownRemark.nodes.map((node) => (
           <article key={node.id}>
               <Link to={`${node.fields.slug}`}>
-                  {node.frontmatter.title}</Link>
+                <div className = 'blogCard'>
+                  {node.frontmatter.title}</div></Link>
           </article>
         ))}
 </Col>

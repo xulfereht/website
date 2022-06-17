@@ -11,23 +11,25 @@ const BlogPostTemplate = ({ data, location }) => {
   return (
     <Layout pageTitle={post.frontmatter.title}>
       <Grid cols="12" gap="10px">
-        <Col xxl="4" md="6" sm="12">
-          <h3>{post.frontmatter.title}</h3>
-          <p className = "subtext">{post.frontmatter.date}</p>
+        <Col xxl="1" md="6" sm="12"></Col>
+
+        <Col xxl="10" md="6" sm="12">
+          <h1 className = "blogTitle">{post.frontmatter.title}</h1>
+          <p className = "subtext"><span className = "blogSub"><b>모든마케팅</b></span> · {post.frontmatter.date}</p>
 
           {post.frontmatter.tags.map((tag) => (
-            <Link to = {`/tags/${tag}`} className = "tagbtn">{tag}</Link>
+            <Link to={`/tags/${tag}`} className="tagbtn">
+              {tag}
+            </Link>
           ))}
 
-
-
-        </Col>
-        <Col xxl="8" md="6" sm="12">
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
           />
         </Col>
+        <Col xxl="1" md="6" sm="12"></Col>
+
         <div className="Blank"></div>
       </Grid>
     </Layout>
