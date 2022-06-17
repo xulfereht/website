@@ -171,7 +171,6 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="Blank"></div>
-      <div className="Blank"></div>
     </Layout>
   );
 };
