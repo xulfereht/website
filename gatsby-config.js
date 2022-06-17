@@ -24,7 +24,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
-        name: `inblog`,
+        name: `blog`,
       },
     },
     {
@@ -34,14 +34,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
-      },
-    },
-    "gatsby-plugin-mdx",
     "gatsby-plugin-styled-components",
     `gatsby-plugin-anchor-links`,
     {
@@ -68,14 +60,6 @@ module.exports = {
         },
       },
     },
-    //{
-    //   resolve: "gatsby-plugin-channel",
-    //  options: {
-    //  channelPluginSettings: {
-    //    pluginKey: '575f7dfb-1537-4fde-bc60-ce2c7d923d1d'
-    //   },
-    //   },
-    //  },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
