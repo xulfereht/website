@@ -2,14 +2,7 @@
 import * as React from "react";
 import Layout from "../../components/layout";
 import { Link } from "gatsby";
-import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
-import Photo from "../../images/profile_removebg.png";
-import { GiH2O, GiSprout } from "react-icons/gi";
-import { StaticImage } from "gatsby-plugin-image";
-import TypeIt from "typeit-react";
-import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-import Example from "../../components/barchart";
+import { Grid, Col } from "react-styled-grid-layout";
 
 const SuperStrong = ({ children }) => {
   return (

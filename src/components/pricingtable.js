@@ -1,6 +1,5 @@
 import * as React from "react";
 import { PricingTable, PricingSlot, PricingDetail } from "react-pricing-table";
-import { Link, navigate } from "gatsby";
 
 const MyComponent = () => {
   return (

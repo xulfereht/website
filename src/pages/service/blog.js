@@ -9,7 +9,7 @@ import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Example from "../../components/barchart";
 import Pricingtable from "../../components/pricingtable";
-import Widget from "../../components/typeform";
+import { GiPlanetConquest } from "react-icons/gi";
 
 const SuperStrong = ({ children }) => {
   return (
@@ -471,8 +471,27 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="Blank"></div>
-      <div id = "contact">
-      <Widget />
+      <div>
+        <h2 id="contact">
+          <div className="icon">
+            <GiPlanetConquest />
+          </div>{" "}
+          Contact Us.
+        </h2>
+        <div>
+          <p>
+            효율적인 커뮤니케이션을 위해 비대면 응대를 원칙으로 하고 있습니다.
+            궁금한 점이 있으시다면 아래 내용을 남겨주세요. 최대한 빠르게 답변
+            드리겠습니다.
+          </p>
+        </div>
+      </div>
+      <div id="contact">
+        <div>
+          <a href="https://form.typeform.com/to/sS9ViGNy" target="_blank">
+            <button className="button">문의하기</button>
+          </a>
+        </div>
       </div>
     </Layout>
   );
