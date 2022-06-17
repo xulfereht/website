@@ -30,6 +30,13 @@ h6 {
   color: black;
   font-family: "Pretendard Light";
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .blogTitle {
   font-family: "Pretendard Regular";
   display: block;
