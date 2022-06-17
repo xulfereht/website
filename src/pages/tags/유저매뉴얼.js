@@ -11,7 +11,7 @@ const BlogPage = ({ data }) => {
           <h2>유저매뉴얼 목록</h2>
         </Col>
     
-        <Col xxl="9" md="6" sm="12">      <p>서비스 이용과 관련된 문서 목록입니다.</p>
+        <Col xxl="9" md="6" sm="12">      <p>서비스 이용과 관련된 문서 목록입니다. 목록은 지속적으로 추가 및 갱신됩니다.</p>
             <ul>      
       {data.allMarkdownRemark.nodes.map((node) => (
           <article key={node.id}>
