@@ -32,24 +32,29 @@ const BlogPostTemplate = ({ data, location }) => {
             itemProp="articleBody"
           />
           <div className="topBlank"></div>
-
           <div>
-            {next ? (
-              <div className="blogNav">
-                <Link to={next.fields.slug}>
-                  Next : {next.frontmatter.title}
-                </Link>
-              </div>
-            ) : (
-              <div></div>
-            )}
-            {previous ? (
-              <div className="blogNav">
-                <Link to={previous.fields.slug}>
-                  Prev : {previous.frontmatter.title}
-                </Link>
-              </div>
-            ) : (
+            { post.frontmatter.tags[0] === '마케팅칼럼' ? (
+            <div>
+              {next ? (
+                <div className="blogNav">
+                  <Link to={next.fields.slug}>
+                    Next : {next.frontmatter.title}
+                  </Link>
+                </div>
+              ) : (
+                <div></div>
+              )}
+              {previous ? (
+                <div className="blogNav">
+                  <Link to={previous.fields.slug}>
+                    Prev : {previous.frontmatter.title}
+                  </Link>
+                </div>
+              ) : (
+                <div></div>
+              )}
+            </div>
+            ) :(
               <div></div>
             )}
           </div>
