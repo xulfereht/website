@@ -266,6 +266,9 @@ hr {
   height: 100px;
 }
 
+.topBlank {
+  height: 50px;
+}
 .anchorLink{
   color: #ff0266;
 }

@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, location }) => {
               {tag}
             </Link>
           ))}
-
+            <div className = "topBlank"></div>
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
