@@ -14,23 +14,6 @@ collections:
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
-    filter: {field: "collection", value: "blog"}
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { - label: "Tags", name: "tags", widget: "list" }
-  - name: 'guide'
-    label: 'Guide'
-    folder: 'content/guide'
-    create: true
-    slug: 'index'
-    media_folder: ''
-    public_folder: ''
-    path: '{{title}}/index'
-    filter: {field: "collection", value: "guide"}
     editor:
       preview: false
     fields:
