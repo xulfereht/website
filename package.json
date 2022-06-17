@@ -53,5 +53,8 @@
     "styled-components": "^5.3.5",
     "tsparticles": "^2.0.6",
     "typeit-react": "^2.4.4"
+  },
+  "devDependencies": {
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27"
   }
 }

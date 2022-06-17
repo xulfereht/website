@@ -7,7 +7,6 @@ import { StaticImage } from "gatsby-plugin-image";
 import TypeIt from "typeit-react";
 import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import Example from "../../components/barchart";
 import Pricingtable from "../../components/pricingtable";
 import { GiPlanetConquest } from "react-icons/gi";
 
@@ -390,14 +389,7 @@ const AboutPage = () => {
                 고객에게 전달하는데 집중할 수 있게 마케팅과 매출 고민은 저희가
                 대신 합니다.
               </p>
-              <div>
-                <center>
-                  <Example />
-                  <p className="etc">
-                    경기 A업체 3월 광고집행 시작(매출 2.5배 상승)
-                  </p>
-                </center>
-              </div>
+              
             </div>
             <div
               data-sal="slide-left"

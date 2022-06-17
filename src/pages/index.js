@@ -2,8 +2,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { Grid, Row, Col, Cell } from "react-styled-grid-layout";
-import Counter from "../components/elements/counter";
-import Example from "../components/barchart";
 import TypeIt from "typeit-react";
 import { FaUserTie, FaRocket, FaHandsHelping } from "react-icons/fa";
 import {
@@ -15,7 +13,6 @@ import {
 } from "react-icons/gi";
 import { AiOutlineUnorderedList, AiOutlineComment } from "react-icons/ai";
 import { Link } from "gatsby";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const SuperStrong = ({ children }) => {
   return (
@@ -305,14 +302,7 @@ const IndexPage = () => {
             고객에게 전달하는데 집중할 수 있게 마케팅과 매출 고민은 저희가 대신
             합니다.
           </p>
-          <div>
-            <center>
-              <Example />
-              <p className="etc">
-                경기 A업체 3월 광고집행 시작(매출 2.5배 상승)
-              </p>
-            </center>
-          </div>
+          
         </div>
         <br></br>
       </section>
