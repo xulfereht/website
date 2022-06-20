@@ -34,7 +34,6 @@ const Layout = ({ pageTitle, children }) => {
         <meta name="description" content={data.site.siteMetadata.description} />
       </Helmet>
 
-      <Part />
       <Navbar />
       <div
         style={{
