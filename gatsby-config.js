@@ -25,14 +25,6 @@ module.exports = {
             }
         },
         {
-            resolve: "gatsby-plugin-robots-txt",
-            options: {
-                host: "http://www.moden.marketing",
-                sitemap: "http://moden.markeing/sitemap.xml",
-                policy: [{ userAgent: "*", allow: "/" }],
-            },
-        },
-        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 path: `${__dirname}/content/blog`,
