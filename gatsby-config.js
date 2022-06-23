@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `모든마케팅 | 병원마케팅 온라인마케팅 전문 대행사 찾으신다면`,
+        title: `- 모든마케팅:병원|치과|한의원|온라인마케팅|대행사`,
         description:
         "병원, 치과, 한의원, 변호사 등 전문직 마케팅 전문 모든마케팅입니다.",
         siteUrl: `http://www.moden.marketing/`,
