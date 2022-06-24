@@ -102,8 +102,7 @@ const AboutPage = () => {
                   &nbsp;압도적인 포스팅당 비용
                 </summary>
                 <p className="subdetails">
-                  유례 없는 파격적인 단가에 고퀄리티 포스팅으로 상위노출이
-                  가능합니다.
+                  유례 없는 파격적인 단가에 고퀄리티 포스팅을 합니다.
                 </p>
               </details>
             </div>
@@ -232,7 +231,7 @@ const AboutPage = () => {
                 <p className="subdetails">
                   여러 가맹점의 마케팅을 전담해야 하는 프랜차이즈 본사라면,
                   저희가 실행사 레벨에서 서포트를 해드립니다. 체계적인 포스팅
-                  리포트 및 노출현황 모니터링을 통해 지점별 관리를 효율적으로
+                  리포트 및 현황 모니터링을 통해 지점별 관리를 효율적으로
                   진행할 수 있습니다. 기타 특별한 서비스가 필요하다면 역으로
                   제안해주셔도 좋습니다.
                 </p>
@@ -291,6 +290,7 @@ const AboutPage = () => {
           </div>
           <div className="Blank"></div>
         </Col>
+        {/*
         <Col xxl="4" md="6" sm="12">
           <div>
             <h2>
@@ -362,7 +362,7 @@ const AboutPage = () => {
             </div>
           </center>
           <div className="Blank"></div>
-        </Col>
+        </Col>*/}
         <Col xxl="4" md="6" sm="12">
           <div>
             <h2>
